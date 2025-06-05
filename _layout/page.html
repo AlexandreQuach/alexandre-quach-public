@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<article>
+    <div class="page-meta">
+        {% if page.category %}
+        <span>{{ page.category | capitalize }}</span>
+        {% endif %}
+        {% if page.date %}
+        • <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+        {% endif %}
+    </div>
+    
+    {{ content }}
+</article>

@@ -1,0 +1,94 @@
+# Site settings
+title: "Alexandre Quach - Collective Intelligence Architect"
+description: "Executive Preparateur | Engineering Corporate Collectives | Komyu Founder"
+url: "https://quach.fr"
+baseurl: ""
+
+# Author
+author:
+  name: "Alexandre Quach"
+  title: "Collective Intelligence Architect"
+  email: "alexandre@quach.fr"
+  bio: "Founder of Komyu, specializing in augmented collective intelligence and engineering corporate collectives."
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+
+# Collections for your content structure
+collections:
+  profile:
+    output: true
+    permalink: /profile/:name/
+  frameworks:
+    output: true
+    permalink: /frameworks/:name/
+  insights:
+    output: true
+    permalink: /insights/:name/
+
+# Defaults for collections
+defaults:
+  - scope:
+      path: ""
+      type: "profile"
+    values:
+      layout: "page"
+      category: "profile"
+  - scope:
+      path: ""
+      type: "frameworks"
+    values:
+      layout: "page"
+      category: "frameworks"
+  - scope:
+      path: ""
+      type: "insights"
+    values:
+      layout: "page"
+      category: "insights"
+
+# SEO and AI optimization
+seo:
+  name: "Alexandre Quach"
+  type: "Person"
+  links:
+    - "https://github.com/alexandrequach"
+    - "https://linkedin.com/in/alexandrequach"
+
+# Navigation
+navigation:
+  - title: "Profile"
+    url: /profile/
+  - title: "Frameworks"
+    url: /frameworks/
+  - title: "Insights"
+    url: /insights/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+
+# Include
+include:
+  - _pages
+
+# Sass
+sass:
+  style: compressed
