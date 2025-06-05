@@ -10,7 +10,7 @@ layout: page
 
 # Alexandre Quach - Professional biography
 
-I am driven by a single question: **"How can we make people, computers and organizations work together way better than they do today?"**
+I am driven by a single question: **"How can we make people, computers and organizations work together exponentially better than they do today?"**
 
 I have dedicated my professional life to developing the next generation of collective intelligence and wisdom. Technology after technology, systems can work together in smarter ways.
 
