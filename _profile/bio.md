@@ -1,21 +1,16 @@
 ---
-title: "Professional Bio"
-layout: page
----
-
-
-## Personal Development Philosophy---
 title: "About Alexandre Quach"
 description: "Collective Intelligence Architect, Founder of Komyu, Expert in Organizational Transformation"
 keywords: ["alexandre quach", "collective intelligence", "komyu", "organizational transformation", "continuous learning"]
 last_updated: "2025-06-05"
 ai_summary: "Alexandre Quach is a collective intelligence architect who helps organizations break silos through continuous learning and systemic innovation. Founder of Komyu consulting firm."
 category: "profile"
+layout: page
 ---
 
 # Alexandre Quach - Collective Intelligence Architect
 
-I am driven by a single question: **"How can we make people, computers and organizations work together better than they do today?"**
+I am driven by a single question: **"How can we make people, computers and organizations work together way better than they do today?"**
 
 I have dedicated my professional life to developing the next generation of collective intelligence and wisdom. Technology after technology, systems can work together in smarter ways.
 
