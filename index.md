@@ -26,6 +26,7 @@ I specialize in **augmented collective intelligence**, helping organizations eng
 **Current**: Founder of Komyu, developing the ECC Method (Engineering Corporate Collectives)
 
 **Background**: 
+- 15 years of work in mostly large companies (Thales, GRDF, BNP Paribas, Amadeus, ...) dedicated to make people and systems work together
 - Executive and Technologies studies from MIT Sloan, Stanford, Harvard and Berkeley 
 - Engineering degree from ENSTA ParisTech
 - Business studies from Sorbonne
