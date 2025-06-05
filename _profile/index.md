@@ -13,11 +13,10 @@ Detailed background, certifications, and professional recommendations.
 ## Sections
 
 {% for item in site.profile %}
-  {% unless item.name == "index" %}
+  {% unless item.path contains "index.md" %}
 - [{{ item.title | default: item.name | capitalize }}]({{ item.url | relative_url }})
   {% endunless %}
 {% endfor %}
-
 ---
 
 ### Quick Access
