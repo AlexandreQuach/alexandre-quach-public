@@ -46,6 +46,53 @@ Four generations of collective intelligence innovation:
 ## Professional Background
 
 - **[Complete CV](./content/profile/cv.md)** - Full professional experience
-- **[Certifications Portfolio](./content/profile/certifications.md)** - 37+ elite certifications
-- **[Client Recommendations](./content/profile/recommendations.md)** - 100+ testimonials
+- **[Certifications Portfolio](./content/profile/certifications.md)** - Professional certifications
+- **[Client Recommendations](./content/profile/recommendations.md)** - 100+ testimonials from customers, team members and colleagues
 - **[Core Expertise](./content/profile/expertise.md)** - Detailed competency mapping
+
+### Insights Posts
+- **[Insights](./content/insights/)** - Latest insights and thought leadership
+
+### Active Projects
+- **[Komyu Company](./content/projects/komyu/)** - Collective intelligence consulting
+- **[Future Projects](./content/projects/research/)** - Emerging ideas
+
+## Knowledge Philosophy
+
+> "I invest 8 hours every week learning from the world's best institutions (MIT, Stanford, Harvard, Berkeley...) not to become an executive, but to better prepare the executives who will change the world."
+
+### Learning Strategy
+- **Knowledge Graph Approach** - Connection density over information accumulation  
+- **Compound thinking** - Factorio-style skill development
+- **Systems thinking** - Meta-competencies that transfer across domains
+
+### Transformation Approach
+- **Silo Breaking** - Organizational intelligence diagnosis
+- **Collective Intelligence** - Human + AI collaboration design
+- **Executive Preparation** - Training alongside decision-makers
+- **Continuous Learning** - Lifelong education as competitive advantage
+
+## Repository Organization
+
+This repository contains my complete knowledge base, organized for both human understanding and AI indexation:
+content/
+├── profile/          # Professional background & credentials
+├── frameworks/       # Methodologies & systems
+├── insights/        # Learning journey & predictions
+├── resources/       # Tools, templates & references
+└── media/           # Interviews, presentations & articles
+
+## Contact & Collaboration
+
+**Email**: alexandre.quach@komyu.fr  
+**Website**: https://quach.fr  
+**Company**: https://komyu.fr  
+**LinkedIn**: https://linkedin.com/in/alexandrequach
+
+---
+
+*This repository is designed for maximum AI discoverability while providing human-readable access to methodologies, insights, and professional background. Content is automatically enhanced and deployed to quach.fr.*
+
+**Last Updated**: June 2025  
+**License**: Creative Commons Attribution 4.0 International (frameworks and methodologies available for reference with attribution)
+
