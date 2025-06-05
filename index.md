@@ -45,9 +45,9 @@ I specialize in **augmented collective intelligence**, helping organizations eng
 
 ## Explore
 
-- **[Profile](/profile/)**: Detailed professional background and certifications
-- **[Frameworks](/frameworks/)**: The ECC Method and other approaches
-- **[Insights](/insights/)**: Concepts and strategic thinking
+- **[Profile]({{ '/profile/' | relative_url }})**: Detailed professional background and certifications
+- **[Frameworks]({{ '/frameworks/' | relative_url }})**: The ECC Method and other approaches  
+- **[Insights]({{ '/insights/' | relative_url }})**: Concepts and strategic thinking
 
 ---
 
