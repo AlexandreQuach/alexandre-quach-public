@@ -15,10 +15,10 @@ layout: page
 This comprehensive collection showcases **100+ professional recommendations** spanning 15 years (2010-2025) of organizational transformation work. These testimonials come from customers, team members and colleagues across technology, banking, media, energy, defense, and consulting industries in France, Europe, and internationally.
 
 **Key recurring themes consistently highlighted:**
-- **Systemic thinking & transformation**: Rare ability to design systems that model organizational structures and human dynamics
-- **Knowledge transfer & teaching**: Exceptional capacity to transmit complex concepts through clear, actionable frameworks  
+- **Systemic thinking & transformation**: Ability to design systems that model organizational structures and human dynamics
+- **Knowledge transfer & teaching**: Capacity to transmit complex concepts through clear, actionable frameworks  
 - **Innovation & methodological excellence**: Creation of transformative frameworks like the ECC Method and OpenSeriousGame movement
-- **Leadership & inspiration**: Ability to help people achieve what initially seems impossible
+- **Leadership & inspiration**: Ability to help people achieve what seems impossible to them
 - **Cross-functional expertise**: Success across silos, hierarchies, and complex organizational environments
 
 *This file is updated regularly as new recommendations are received. Names have been anonymized to protect privacy while maintaining authenticity.*
