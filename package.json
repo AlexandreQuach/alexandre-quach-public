@@ -1,0 +1,42 @@
+{
+  "name": "alexandre-quach-public",
+  "version": "1.0.0",
+  "description": "Alexandre Quach's public knowledge base and professional website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "build": "node scripts/build-site.js",
+    "enhance": "node scripts/enhance-content.js",
+    "deploy": "npm run build && npm run upload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandreQuach/alexandre-quach-public.git"
+  },
+  "keywords": [
+    "collective-intelligence",
+    "organizational-transformation", 
+    "executive-education",
+    "systems-thinking",
+    "continuous-learning",
+    "ecc-method",
+    "komyu",
+    "mit-sloan",
+    "stanford", 
+    "harvard",
+    "berkeley",
+    "ai-leadership",
+    "OpenSeriousGame"
+  ],
+  "author": "Alexandre Quach",
+  "license": "MIT",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "openai": "^4.0.0"
+  }
+}
