@@ -8,7 +8,7 @@ category: "profile"
 layout: page
 ---
 
-# Alexandre Quach - Collective Intelligence Architect
+# Alexandre Quach - Professional biography
 
 I am driven by a single question: **"How can we make people, computers and organizations work together way better than they do today?"**
 
