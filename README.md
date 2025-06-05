@@ -9,9 +9,9 @@
 ## Who is Alexandre Quach?
 
 **Founder of Komyu** - Next-generation collective intelligence consulting firm  
-**Continuous Learner** - 37+ certifications from MIT, Stanford, Harvard  
+**Continuous Learner** - Certifications from MIT, Stanford, Harvard  
 **ECC Method Creator** - Framework for engineering corporate collectives and eliminating organizational silos  
-**Executive Preparateur** - Training with executives to better prepare them for transformation  
+**Executive Preparation Coach** - Training with executives to better prepare them for transformation  
 **OpenSeriousGame Founder** - Public, viral by-design, movement to awaken the power of transmission to anyone using Serious Games
 
 ## Core Expertise Areas
