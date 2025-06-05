@@ -12,7 +12,7 @@ description: "Executive Preparation coach specializing in engineering corporate 
 
 ## About
 
-I specialize in **augmented collective intelligence**, helping organizations engineer more effective collaborative systems. As an "Executive Preparateur," I prepare leaders without being one myself—working through systems and indirect influence to create sustainable change.
+I specialize in **augmented collective intelligence**, helping organizations engineer more effective collaborative systems. As an "Executive Preparation coach," I prepare leaders working through systems and indirect influence to create sustainable change.
 
 ### Core Focus
 - **Collective Intelligence Architecture**: Designing systems that amplify group decision-making
