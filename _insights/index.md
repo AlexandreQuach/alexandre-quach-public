@@ -13,7 +13,9 @@ Reflections on leadership, organizational behavior, and collective intelligence.
 ## Available Insights
 
 {% for item in site.insights %}
+  {% unless item.name == "index" %}
 - [{{ item.title | default: item.name | capitalize }}]({{ item.url | relative_url }})
+  {% endunless %}
 {% endfor %}
 
 ---
