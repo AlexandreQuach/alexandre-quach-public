@@ -22,5 +22,5 @@ Detailed background, certifications, and professional recommendations.
 ### Quick Access
 
 - **[Professional Bio]({{ '/profile/bio/' | relative_url }})** - Background and philosophy
-- **[Certifications]({{ '/profile/certifications/' | relative_url }})** - 20+ certificates from world-class institutions  
+- **[Certifications]({{ '/profile/certifications/' | relative_url }})** - Certificates from recognized institutions  
 - **[Recommendations]({{ '/profile/recommendations/' | relative_url }})** - 100+ professional testimonials
