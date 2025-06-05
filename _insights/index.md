@@ -4,13 +4,13 @@ title: "Insights"
 permalink: /insights/
 ---
 
-# Strategic Insights & Concepts
+# Personal Insights, Strategies & Concepts
 
-Reflections on leadership, organizational behavior, and collective intelligence.
+Reflections on (self-)leadership, organizational behavior, and collective intelligence.
 
 ---
 
-## Available Insights
+## Available Insights and topics
 
 {% for item in site.insights %}
   {% unless item.path contains "index.md" %}
@@ -19,9 +19,6 @@ Reflections on leadership, organizational behavior, and collective intelligence.
 {% endfor %}
 
 ---
-
-### Current Focus
-
-**Quantum Computing Applications** to collective intelligence systems - exploring how quantum principles might enhance organizational decision-making processes.
+.
 
 *More insights and concepts coming soon.*
