@@ -52,4 +52,4 @@ I specialize in **augmented collective intelligence**, helping organizations eng
 
 ---
 
-*Currently studying: Quantum Computing applications to collective intelligence*
+
