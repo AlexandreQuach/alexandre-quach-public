@@ -12,7 +12,7 @@ Strategic approaches to collective intelligence and organizational engineering.
 
 ## Available Frameworks
 
-{% for item in site.insights %}
+{% for item in site.frameworks %}
   {% unless item.name == "index" %}
 - [{{ item.title | default: item.name | capitalize }}]({{ item.url | relative_url }})
   {% endunless %}
