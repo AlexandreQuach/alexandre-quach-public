@@ -1,12 +1,12 @@
 ---
 layout: default
 title: "Alexandre Quach - Collective Intelligence Architect"
-description: "Executive Preparateur specializing in engineering corporate collectives and augmented collective intelligence"
+description: "Executive Preparation coach specializing in engineering corporate collectives and augmented collective intelligence"
 ---
 
 # Collective Intelligence Architect
 
-**Executive Preparateur** | Founder of [Komyu](https://www.komyu.fr) | Engineering Corporate Collectives
+**Executive Preparation coach** | Founder of [Komyu](https://www.komyu.fr) | Engineering Corporate Collectives
 
 ---
 
