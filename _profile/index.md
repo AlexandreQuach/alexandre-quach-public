@@ -12,8 +12,10 @@ Detailed background, certifications, and professional recommendations.
 
 ## Sections
 
-{% for item in site.profile %}
+{% for item in site.insights %}
+  {% unless item.name == "index" %}
 - [{{ item.title | default: item.name | capitalize }}]({{ item.url | relative_url }})
+  {% endunless %}
 {% endfor %}
 
 ---
