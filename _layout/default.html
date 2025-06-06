@@ -6,40 +6,23 @@
     
     {% seo %}
 
-    {% seo %}
-
-    <!-- JSON-LD sur toutes les pages (test) -->
+    <!-- DEBUG CONDITIONS -->
+    <script>
+    console.log("DEBUG - page.url: '{{ page.url }}'");
+    console.log("DEBUG - page.path: '{{ page.path }}'");
+    console.log("DEBUG - page.name: '{{ page.name }}'");
+    </script>
+    
+    <!-- TEST JSON-LD SIMPLE SANS CONDITION -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person", 
+      "@type": "Person",
       "name": "{{ site.author.name }}",
       "jobTitle": "{{ site.author.title }}",
-      "knowsAbout": [
-        {% for skill in site.author.expertise_areas %}
-        "{{ skill }}"{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-      ]
+      "TEST": "This should appear on ALL pages"
     }
     </script>
-
-    
-    <!-- JSON-LD Structured Data for AI and SEO -->
-    {% if page.url == '/' %}
-        {% comment %}Homepage: Personal profile + Organization{% endcomment %}
-        {% include jsonld-person.html %}
-        {% include jsonld-organization.html %}
-    {% endif %}
-    
-    {% if page.categories contains 'insights' or page.categories contains 'frameworks' or page.content_type %}
-        {% comment %}Content pages: Article structured data{% endcomment %}
-        {% include jsonld-article.html %}
-    {% endif %}
-    
-    {% comment %}Add personal profile on all non-homepage pages for author context{% endcomment %}
-    {% unless page.url == '/' %}
-        {% include jsonld-person.html %}
-    {% endunless %}
     
     <link rel="canonical" href="{{ page.url | absolute_url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
