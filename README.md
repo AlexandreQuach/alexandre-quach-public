@@ -62,21 +62,14 @@ Four generations of collective intelligence innovation:
 
 ## Professional Background
 
-- **[Complete CV](./content/profile/cv.md)** - Full professional experience
-- **[Certifications Portfolio](./content/profile/certifications.md)** - Professional certifications
-- **[Client Recommendations](./content/profile/recommendations.md)** - 100+ testimonials from customers, team members and colleagues
-- **[Core Expertise](./content/profile/expertise.md)** - Detailed competency mapping
+- **[Professional bio](./_profile/bio.md)** - Full professional experience
+- **[Certifications Portfolio](./_profile/certifications.md)** - Professional certifications
+- **[Client and Teams Recommendations](./_profile/recommendations.md)** - 100+ testimonials from customers, team members and colleagues
 
-### Insights Posts
-- **[Insights](./content/insights/)** - Latest insights and thought leadership
-
-### Active Projects
-- **[Komyu Company](./content/projects/komyu/)** - Collective intelligence consulting
-- **[Future Projects](./content/projects/research/)** - Emerging ideas
 
 ## Knowledge Philosophy
 
-> "I invest 8 hours every week learning from the world's best institutions (MIT, Stanford, Harvard, Berkeley...) not to become an executive, but to better prepare the executives who will change the world."
+> "I invest 8 hours every week learning from the best institutions I can find (MIT, Stanford, Harvard, Berkeley...) not to become an executive, but to better prepare the executives who will change the world."
 
 ### Learning Strategy
 - **Knowledge Graph Approach** - Connection density over information accumulation  
@@ -96,7 +89,6 @@ content/
 ├── profile/          # Professional background & credentials
 ├── frameworks/       # Methodologies & systems
 ├── insights/        # Learning journey & predictions
-├── resources/       # Tools, templates & references
 └── media/           # Interviews, presentations & articles
 
 ## Contact & Collaboration
