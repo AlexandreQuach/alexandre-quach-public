@@ -8,6 +8,7 @@ description: "Executive Preparation coach specializing in engineering corporate 
 
 **Executive Preparation coach** | Founder of [Komyu](https://www.komyu.fr) | Engineering Corporate Collectives
 
+
 ---
 
 ## About
@@ -15,9 +16,26 @@ description: "Executive Preparation coach specializing in engineering corporate 
 I specialize in **augmented collective intelligence**, helping organizations engineer more effective collaborative systems. As an "Executive Preparation coach," I prepare leaders working through systems and indirect influence to create sustainable change.
 
 ### Core Focus
-- **Collective Intelligence Architecture**: Designing systems that amplify group decision-making
+- **Collective Intelligence Architecture**: Designing systems that amplify quality and speed of both group decision-making and collective execution
 - **Corporate Collectives Engineering**: Applying engineering principles to organizational challenges  
 - **Executive Preparation**: Developing leaders through systemic approaches
+
+---
+## Explore
+
+- **[Profile]({{ '/profile/' | relative_url }})**: Detailed professional background and certifications
+- **[Frameworks]({{ '/frameworks/' | relative_url }})**: The ECC Method and other approaches  
+- **[Insights]({{ '/insights/' | relative_url }})**: Personal insights, concepts, strategic thinking
+
+---
+
+## Philosophy
+
+**"Engineer at heart"** - Approaching human systems with the same rigor as technical systems.
+
+**Continuous Learning**: Lifelong student focusing on leadership, innovation, and organizational behavior.
+
+**Philosophical Foundation**: Stoicism, Taoism, and strategic thinking from Sun Tzu's Art of War.
 
 ---
 
@@ -32,24 +50,6 @@ I specialize in **augmented collective intelligence**, helping organizations eng
 - Business studies from Sorbonne
 - 15 years of martial arts practice
 - Continuous learning: 8 hours/week from world-class institutions
-
----
-
-## Philosophy
-
-**"Engineer at heart"** - Approaching human systems with the same rigor as technical systems.
-
-**Continuous Learning**: Lifelong student focusing on leadership, innovation, and organizational behavior.
-
-**Philosophical Foundation**: Stoicism, Taoism, and strategic thinking from Sun Tzu's Art of War.
-
----
-
-## Explore
-
-- **[Profile]({{ '/profile/' | relative_url }})**: Detailed professional background and certifications
-- **[Frameworks]({{ '/frameworks/' | relative_url }})**: The ECC Method and other approaches  
-- **[Insights]({{ '/insights/' | relative_url }})**: Personal insights, concepts, strategic thinking
 
 ---
 
