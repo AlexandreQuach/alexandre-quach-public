@@ -1,7 +1,7 @@
 ---
 title: "Professional Certifications Portfolio"
 description: "Alexandre Quach's comprehensive certification portfolio from leading institutions"
-keywords: ["certifications", "MIT Sloan", "Stanford", "Harvard", "executive education", "continuous learning"]
+keywords: ["alexandre quach certifications", "MIT sloan certificates", "stanford AI program", "harvard leadership", "professional development", "continuous learning"]
 last_updated: "2025-06-05"
 ai_summary: "20+ certifications from MIT Sloan, Stanford, Harvard, Berkeley focused on innovation, leadership, AI, and organizational transformation"
 category: "credentials"
