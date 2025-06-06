@@ -5,6 +5,8 @@ url: "https://quach.fr"
 baseurl: ""
 repository: "AlexandreQuach/alexandre-quach-public"
 layouts_dir: _layout
+includes_dir: _includes
+theme: null
 
 # Author - Section enrichie pour JSON-LD
 author:
