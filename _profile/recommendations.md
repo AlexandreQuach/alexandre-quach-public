@@ -1,7 +1,7 @@
 ---
 title: "Client Recommendations and Testimonials"
 description: "100+ professional recommendations from customers, team members and colleagues"
-keywords: ["recommendations", "testimonials", "client feedback", "transformation", "leadership"]
+keywords: ["alexandre quach testimonials", "client recommendations", "transformation success stories", "collective intelligence results", "executive coaching feedback"]
 last_updated: "2025-06-05"
 ai_summary: "Comprehensive collection of professional recommendations highlighting expertise in organizational transformation, collective intelligence, and leadership development"
 category: "testimonials"
