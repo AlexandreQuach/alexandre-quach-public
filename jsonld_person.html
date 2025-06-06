@@ -1,0 +1,111 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.author.name }}",
+  "jobTitle": "{{ site.author.title }}",
+  "description": "{{ site.author.bio }}",
+  "url": "{{ site.url }}",
+  "email": "{{ site.author.email }}",
+  "image": "{{ site.url }}/images/Alexandre_Quach_photo_2023.JPG",
+  "sameAs": [
+    {% for profile in site.author.social_profiles %}
+    "{{ profile }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "{{ site.author.location.city }}",
+    "addressRegion": "{{ site.author.location.region }}",
+    "addressCountry": "{{ site.author.location.country }}"
+  },
+  "nationality": {
+    "@type": "Country",
+    "name": "{{ site.author.location.country }}"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "{{ site.company.name }}",
+    "url": "{{ site.company.url }}",
+    "description": "{{ site.company.description }}",
+    "foundingDate": "{{ site.company.founding_year }}",
+    "industry": "{{ site.company.industry }}"
+  },
+  "foundingDate": "{{ site.company.founding_year }}",
+  "founder": {
+    "@type": "Organization",
+    "name": "{{ site.company.name }}"
+  },
+  "knowsAbout": [
+    {% for skill in site.author.expertise_areas %}
+    "{{ skill }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "hasCredential": [
+    {% for education in site.author.alumni_of %}
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "degree",
+      "name": "{% if education.degree %}{{ education.degree }}{% else %}{{ education.program }}{% endif %}",
+      "dateEarned": "{% if education.year %}{{ education.year }}{% endif %}",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "{{ education.institution }}"
+      }
+    },
+    {% endfor %}
+    {% for cert in site.author.professional_certifications %}
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "certificate",
+      "name": "{{ cert.program }}",
+      "dateEarned": "{{ cert.year }}",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "{{ cert.institution }}"
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "alumniOf": [
+    {% for education in site.author.alumni_of %}
+    {
+      "@type": "Organization",
+      "name": "{{ education.institution }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "{{ site.author.title }}",
+    "occupationLocation": {
+      "@type": "Place",
+      "name": "{{ site.author.location.city }}, {{ site.author.location.country }}"
+    },
+    "skills": [
+      {% for method in site.author.methodologies %}
+      "{{ method }}"{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ],
+    "responsibilities": [
+      "Engineering Corporate Collectives",
+      "Executive Preparation Coaching",
+      "Silo Elimination Consulting",
+      "Human-AI Collaboration Design",
+      "Organizational Transformation"
+    ]
+  },
+  "memberOf": [
+    {% for company in site.author.companies_worked %}
+    {
+      "@type": "Organization",
+      "name": "{{ company }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "seeks": {
+    "@type": "Demand",
+    "name": "Collective Intelligence Transformation Projects"
+  }
+}
+</script>
