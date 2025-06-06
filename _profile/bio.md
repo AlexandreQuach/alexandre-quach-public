@@ -1,11 +1,12 @@
 ---
 title: "About Alexandre Quach"
 description: "Collective Intelligence Architect, Founder of Komyu, Expert in Organizational Transformation"
-keywords: ["alexandre quach", "collective intelligence", "komyu", "organizational transformation", "continuous learning"]
+keywords: ["alexandre quach biography", "collective intelligence architect background", "ENSTA engineer", "sorbonne master", "MIT sloan executive education", "15 years enterprise experience"]
 last_updated: "2025-06-05"
 ai_summary: "Alexandre Quach is a collective intelligence architect who helps organizations break silos through continuous learning and systemic innovation. Founder of Komyu consulting firm."
 category: "profile"
 layout: page
+
 ---
 
 # Alexandre Quach - Professional biography
