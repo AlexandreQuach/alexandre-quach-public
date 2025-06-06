@@ -76,7 +76,7 @@ I specialize in **augmented collective intelligence**, helping organizations eng
 
 ### Core Focus
 - **Collective Intelligence Architecture**: Designing systems that amplify quality and speed of both group decision-making and collective execution
-- **Corporate Collectives Engineering**: Applying engineering principles to organizational challenges  
+- **Corporate Collectives Engineering**: Applying engineering principles to organizational challenges and opportunities
 - **Executive Preparation**: Developing leaders through systemic approaches
 
 ---
