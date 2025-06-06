@@ -1,3 +1,20 @@
+---
+title: "Alexandre Quach - Collective Intelligence Architect | Repository"
+description: "Source code for Alexandre Quach's professional website - Collective Intelligence Architect, Executive Preparation coach, and founder of Komyu specializing in engineering corporate collectives."
+keywords: ["alexandre quach", "collective intelligence", "komyu", "ECC method", "organizational transformation", "executive coaching", "github repository", "jekyll site", "professional website"]
+canonical_url: "https://quach.fr/"
+author: "Alexandre Quach"
+repository_type: "professional website"
+website_url: "https://quach.fr"
+company: "Komyu"
+company_url: "https://www.komyu.fr"
+linkedin: "https://www.linkedin.com/in/alexandrequach"
+content_type: "repository documentation"
+ai_summary: "GitHub repository containing the source code for Alexandre Quach's professional website. Alexandre is a Collective Intelligence Architect and Executive Preparation coach who specializes in engineering corporate collectives and organizational transformation."
+topics: ["collective-intelligence", "organizational-transformation", "executive-coaching", "jekyll", "github-pages", "professional-website", "consulting", "leadership-development"]
+license: "MIT"
+---
+
 # Alexandre Quach - Collective Intelligence Architect
 
 **Transforming organizations through continuous learning and systemic innovation**
