@@ -5,7 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     {% seo %}
-       
+
+    
+    <!-- TEST JSON-LD Simple -->
+    {% if page.url == '/' %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person", 
+      "name": "{{ site.author.name }}",
+      "jobTitle": "{{ site.author.title }}"
+    }
+    </script>
+    {% endif %}
+    
     <!-- JSON-LD Structured Data for AI and SEO -->
     {% if page.url == '/' %}
         {% comment %}Homepage: Personal profile + Organization{% endcomment %}
