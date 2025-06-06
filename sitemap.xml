@@ -1,0 +1,84 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Page d'accueil : priorité maximum -->
+  <url>
+    <loc>{{ site.url }}/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Pages de profil : haute priorité -->
+  {% for page in site.profile %}
+    <url>
+      <loc>{{ site.url }}{{ page.url }}</loc>
+      <lastmod>{% if page.last_updated %}{{ page.last_updated | date_to_xmlschema }}{% else %}{{ page.date | default: site.time | date_to_xmlschema }}{% endif %}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  {% endfor %}
+  
+  <!-- Frameworks : priorité élevée (vos concepts uniques) -->
+  {% for page in site.frameworks %}
+    <url>
+      <loc>{{ site.url }}{{ page.url }}</loc>
+      <lastmod>{% if page.last_updated %}{{ page.last_updated | date_to_xmlschema }}{% else %}{{ page.date | default: site.time | date_to_xmlschema }}{% endif %}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  {% endfor %}
+  
+  <!-- Insights : priorité selon la date et l'importance -->
+  {% for post in site.insights %}
+    {% assign days_old = site.time | date: '%s' | minus: post.date | date: '%s' | divided_by: 86400 %}
+    {% if days_old < 30 %}
+      {% assign priority = 0.8 %}
+      {% assign changefreq = "weekly" %}
+    {% elsif days_old < 365 %}
+      {% assign priority = 0.6 %}
+      {% assign changefreq = "monthly" %}
+    {% else %}
+      {% assign priority = 0.4 %}
+      {% assign changefreq = "yearly" %}
+    {% endif %}
+    
+    <!-- Boost pour les concepts importants -->
+    {% if post.keywords contains 'ECC Method' or post.keywords contains 'Compound Thinking' or post.keywords contains 'Solution Gatling' %}
+      {% assign priority = priority | plus: 0.2 %}
+    {% endif %}
+    
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      <lastmod>{% if post.last_updated %}{{ post.last_updated | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</lastmod>
+      <changefreq>{{ changefreq }}</changefreq>
+      <priority>{{ priority }}</priority>
+    </url>
+  {% endfor %}
+  
+  <!-- Pages statiques -->
+  {% for page in site.pages %}
+    {% unless page.sitemap == false or page.url contains '/404' %}
+      <!-- Priorité selon l'importance de la page -->
+      {% assign page_priority = 0.5 %}
+      {% if page.url contains '/profile/' %}
+        {% assign page_priority = 0.9 %}
+      {% elsif page.url contains '/frameworks/' %}
+        {% assign page_priority = 0.8 %}
+      {% elsif page.url contains '/insights/' %}
+        {% assign page_priority = 0.7 %}
+      {% endif %}
+      
+      <url>
+        <loc>{{ site.url }}{{ page.url }}</loc>
+        <lastmod>{% if page.last_updated %}{{ page.last_updated | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>
+        <changefreq>{% if page.url contains '/profile/' %}monthly{% else %}quarterly{% endif %}</changefreq>
+        <priority>{{ page_priority }}</priority>
+      </url>
+    {% endunless %}
+  {% endfor %}
+  
+</urlset>
