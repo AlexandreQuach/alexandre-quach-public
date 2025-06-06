@@ -39,27 +39,6 @@ license: "MIT"
 - **Systems Thinking & Change Management**
 - **Serious Games & Gamification for Learning**
 
-## Key Frameworks & Methodologies
-
-### [ECC Method](./content/frameworks/ecc-method/)
-Systematic approach to eliminating organizational silos and unlocking collective potential through:
-- Structured Reasoning Pipeline
-- Non-linear resource problem-solving
-- Resource management principles
-
-### [Knowledge Graph Learning](./content/frameworks/knowledge-graphs/)
-- Personal knowledge-graph based learning
-- Hypergraph thinking approaches
-- Connection density optimization
-- Bloom taxonomy integration
-
-### [Komyu Methodology](./content/frameworks/komyu-methodology/)
-Four generations of collective intelligence innovation:
-1. Foundation Workshops & Serious Games
-2. Operational Frameworks (CCC, CMQ) 
-3. Strategic Diagnosis (ECC Method)
-4. AI-Enhanced Intelligence
-
 ## Professional Background
 
 - **[Professional bio](./_profile/bio.md)** - Full professional experience
@@ -89,7 +68,6 @@ content/
 ├── profile/          # Professional background & credentials
 ├── frameworks/       # Methodologies & systems
 ├── insights/        # Learning journey & predictions
-└── media/           # Interviews, presentations & articles
 
 ## Contact & Collaboration
 
