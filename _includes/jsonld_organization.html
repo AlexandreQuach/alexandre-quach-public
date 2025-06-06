@@ -1,0 +1,88 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ site.company.name }}",
+  "url": "{{ site.company.url }}",
+  "description": "{{ site.company.description }}",
+  "foundingDate": "{{ site.company.founding_year }}",
+  "founder": {
+    "@type": "Person",
+    "name": "{{ site.author.name }}",
+    "jobTitle": "{{ site.author.title }}",
+    "url": "{{ site.url }}"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "{{ site.author.location.city }}",
+    "addressRegion": "{{ site.author.location.region }}",
+    "addressCountry": "{{ site.author.location.country }}"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "{{ site.author.email }}",
+    "contactType": "Customer Service",
+    "availableLanguage": ["French", "English"]
+  },
+  "sameAs": [
+    "{{ site.company.url }}",
+    "{{ site.url }}"
+  ],
+  "industry": "{{ site.company.industry }}",
+  "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "value": "1-10"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Global"
+  },
+  "serviceType": [
+    {% for specialty in site.company.specialties %}
+    "{{ specialty }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Collective Intelligence Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "ECC Method Implementation",
+          "description": "Engineering Corporate Collectives methodology for silo elimination"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Executive Preparation Coaching",
+          "description": "Preparing leaders for collective intelligence transformation"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Human-AI Collaboration Design",
+          "description": "Designing systems for optimal human-AI collective intelligence"
+        }
+      }
+    ]
+  },
+  "knowsAbout": [
+    {% for skill in site.author.expertise_areas %}
+    "{{ skill }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "employee": [
+    {
+      "@type": "Person",
+      "name": "{{ site.author.name }}",
+      "jobTitle": "Founder & {{ site.author.title }}"
+    }
+  ]
+}
+</script>
