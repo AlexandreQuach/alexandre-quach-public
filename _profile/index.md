@@ -2,6 +2,7 @@
 layout: default
 title: "Profile"
 permalink: /profile/
+keywords: ["alexandre quach profile", "collective intelligence architect", "executive preparation coach", "komyu founder", "MIT sloan alumni", "organizational transformation expert"]
 ---
 
 # Professional Profile
