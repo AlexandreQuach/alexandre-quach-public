@@ -6,6 +6,8 @@ description: "Executive Preparation coach specializing in engineering corporate 
 
 # Collective Intelligence Architect
 
+<img src="{{ '/_profile/images/Alexandre_Quach_photo_2023.JPG' | relative_url }}" alt="Alexandre Quach" style="width: 200px; height: auto; border-radius: 10px; margin: 20px 0;">
+
 **Executive Preparation coach** | Founder of [Komyu](https://www.komyu.fr) | Engineering Corporate Collectives
 
 
