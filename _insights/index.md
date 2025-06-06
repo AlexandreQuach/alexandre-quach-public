@@ -12,9 +12,10 @@ Reflections on (self-)leadership, organizational behavior, and collective intell
 
 ## Available Insights and topics
 
-{% for item in site.insights %}
+{% assign sorted_insights = site.insights | sort: 'date' | reverse %}
+{% for item in sorted_insights %}
   {% unless item.path contains "index.md" %}
-- [{{ item.title | default: item.name | capitalize }}]({{ item.url | relative_url }})
+* {{ item.date | date: "%Y-%m-%d" }} - [{{ item.title | default: item.name | capitalize }}]({{ item.url | relative_url }})
   {% endunless %}
 {% endfor %}
 
