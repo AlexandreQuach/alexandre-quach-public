@@ -2,30 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    {% seo %}
-
-    <!-- DEBUG CONDITIONS -->
-    <script>
-    console.log("DEBUG - page.url: '{{ page.url }}'");
-    console.log("DEBUG - page.path: '{{ page.path }}'");
-    console.log("DEBUG - page.name: '{{ page.name }}'");
-    </script>
-    
-    <!-- TEST JSON-LD SIMPLE SANS CONDITION -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "{{ site.author.name }}",
-      "jobTitle": "{{ site.author.title }}",
-      "TEST": "This should appear on ALL pages"
-    }
-    </script>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
     <link rel="canonical" href="{{ page.url | absolute_url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
+
+
+
     
     <style>
         :root {
