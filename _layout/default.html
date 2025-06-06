@@ -5,9 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">    
     <link rel="canonical" href="{{ page.url | absolute_url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
-
-    <!-- Test d'inclusion -->
-    {% include test.html %}
+    {% seo %}
+    
+    <!-- JSON-LD INLINE (contournement) -->
+    {% if page.url == '/' or page.path == 'index.md' %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "{{ site.author.name }}",
+      "jobTitle": "{{ site.author.title }}",
+      "knowsAbout": [
+        {% for skill in site.author.expertise_areas %}
+        "{{ skill }}"{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }
+    </script>
+    {% endif %}
 
     
     <style>
