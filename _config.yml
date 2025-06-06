@@ -4,7 +4,7 @@ description: "Executive Preparation coach | Engineering Corporate Collectives | 
 url: "https://quach.fr"
 baseurl: ""
 repository: "AlexandreQuach/alexandre-quach-public"
-layouts_dir: _layouts
+layouts_dir: _layout
 
 # Author - Section enrichie pour JSON-LD
 author:
