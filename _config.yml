@@ -1,16 +1,121 @@
 # Site settings
 title: "Alexandre Quach - Collective Intelligence Architect"
-description: "Executive Preparateur | Engineering Corporate Collectives | Komyu Founder"
+description: "Executive Preparation coach | Engineering Corporate Collectives | Komyu Founder"
 url: "https://quach.fr"
 baseurl: ""
 repository: "AlexandreQuach/alexandre-quach-public"
 
-# Author
+# Author - Section enrichie pour JSON-LD
 author:
   name: "Alexandre Quach"
   title: "Collective Intelligence Architect"
   email: "alexandre@quach.fr"
   bio: "Founder of Komyu, specializing in augmented collective intelligence and engineering corporate collectives."
+  
+  # Education - Diplômes (Alumni status)
+  alumni_of:
+    - institution: "ENSTA ParisTech"
+      degree: "Ingénieur Systèmes d'Information et de Production"
+      year: "2009"
+      status: "Alumni"
+    - institution: "Sorbonne Paris I"
+      degree: "Master II Conseil, Organisation, Stratégie d'entreprise et Systèmes d'Information"
+      year: "2009"
+      status: "Alumni"
+    - institution: "MIT Sloan School of Management"
+      program: "Advanced Certificate Executive (ACE)"
+      status: "Executive Alumni"
+  
+  # Certifications professionnelles
+  professional_certifications:
+    - institution: "Stanford Online"
+      program: "Professional Program in Generative AI"
+      year: "2025"
+    - institution: "Harvard Online"
+      program: "Leadership and Communication Programs"
+      year: "2024"
+    - institution: "UC Berkeley"
+      program: "Foundations of Happiness at Work"
+      year: "2025"
+    - institution: "Daniel Goleman Institute"
+      program: "Emotional Intelligence Foundational Skills"
+      year: "2025"
+  
+  # Domaines d'expertise pour JSON-LD
+  expertise_areas:
+    - "Collective Intelligence"
+    - "Human-AI Collaboration"
+    - "Organizational Transformation"
+    - "ECC Method"
+    - "Engineering Corporate Collectives"
+    - "Compound Thinking"
+    - "Knowledge Graphs"
+    - "Hypergraph Learning"
+    - "Systems Thinking"
+    - "Executive Coaching"
+    - "Agile Methodology"
+    - "Change Management"
+    - "Solution Gatling"
+    - "Cogeneration"
+    - "Coprompting"
+    - "Supermind Architecture"
+    - "Silo Elimination"
+    - "Cross-functional Leadership"
+    - "Transversal Program Management"
+  
+  # Méthodologies développées
+  methodologies:
+    - "ECC Method"
+    - "Engineering Corporate Collectives"
+    - "Compound Thinking Framework"
+    - "Knowledge Graph Learning"
+    - "Hypergraph Thinking"
+    - "Confidence Level Variations Method"
+    - "Solution Gatling"
+    - "Cogeneration"
+    - "Coprompting"
+    - "Cincinnatus Network"
+    - "Supermind-us Framework"
+  
+  # Expérience professionnelle
+  experience_years: "15+"
+  certifications_count: "20+"
+  
+  companies_worked:
+    - "Thales"
+    - "BNP Paribas"
+    - "GRDF"
+    - "France Télévisions"
+    - "Amadeus"
+  
+  # Profils sociaux
+  social_profiles:
+    - "https://www.linkedin.com/in/alexandrequach"
+    - "https://www.komyu.fr"
+    - "https://github.com/alexandrequach"
+    - "https://quach.fr"
+  
+  # Informations géographiques
+  location:
+    city: "Paris"
+    region: "Île-de-France"
+    country: "France"
+    country_code: "FR"
+
+# Informations sur l'entreprise
+company:
+  name: "Komyu"
+  url: "https://www.komyu.fr"
+  description: "Next-generation collective intelligence consulting firm"
+  founding_year: "2022"
+  industry: "Management Consulting"
+  specialties:
+    - "Collective Intelligence"
+    - "Organizational Transformation"
+    - "Human-AI Collaboration"
+    - "Executive Coaching"
+    - "Silo Elimination"
+    - "Cross-functional Leadership Development"
 
 # Build settings
 markdown: kramdown
@@ -64,6 +169,31 @@ seo:
   links:
     - "https://github.com/alexandrequach"
     - "https://linkedin.com/in/alexandrequach"
+    - "https://www.komyu.fr"
+
+# Schema.org structured data
+schema:
+  person:
+    "@type": "Person"
+    name: "Alexandre Quach"
+    jobTitle: "Collective Intelligence Architect"
+    worksFor: "Komyu"
+    address:
+      locality: "Paris"
+      country: "France"
+    nationality: "French"
+    gender: "Male"
+    birthPlace: "France"
+    
+  organization:
+    "@type": "Organization"
+    name: "Komyu"
+    url: "https://www.komyu.fr"
+    foundingDate: "2022"
+    industry: "Management Consulting"
+    address:
+      locality: "Paris"
+      country: "France"
 
 # Navigation
 navigation:
@@ -73,6 +203,40 @@ navigation:
     url: /frameworks/
   - title: "Insights"
     url: /insights/
+
+# Professional data for rich snippets
+professional:
+  role: "Collective Intelligence Architect"
+  company: "Komyu"
+  industry: ["Management Consulting", "Organizational Development", "Executive Coaching", "Collective Intelligence", "AI Collaboration"]
+  target_clients: ["Transversal Leaders", "Program Managers", "Transformation Leaders", "Cross-functional Teams", "Executive Teams"]
+  value_proposition: "Engineering Corporate Collectives that amplify quality and speed of both group decision-making and collective execution through systematic approaches and proven methodologies"
+  
+  unique_selling_points:
+    - "15+ years large enterprise experience"
+    - "Engineering mindset applied to human systems"
+    - "Proven ECC Method"
+    - "Elite education portfolio (MIT Sloan, ENSTA, Sorbonne)"
+    - "East-West philosophical integration"
+    - "Martial arts discipline (15+ years)"
+    - "Continuous learning commitment"
+    - "Human-AI collaboration pioneer"
+    - "Silo elimination expert"
+
+# Language and localization
+language: "en"
+locale: "en_US"
+timezone: "Europe/Paris"
+
+# Contact information
+contact:
+  email: "alexandre.quach@komyu.fr"
+  phone: null  # Pas publié
+  address:
+    locality: "Paris"
+    region: "Île-de-France"
+    country: "France"
+    postal_code: null  # Pas publié
 
 # Exclude from processing
 exclude:
@@ -93,3 +257,8 @@ include:
 # Sass
 sass:
   style: compressed
+
+# Performance optimization
+future: false
+incremental: true
+profile: false
