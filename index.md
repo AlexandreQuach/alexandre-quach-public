@@ -4,14 +4,13 @@ title: "Alexandre Quach - Collective Intelligence Architect"
 description: "Executive Preparation coach specializing in engineering corporate collectives and augmented collective intelligence"
 ---
 
-# Collective Intelligence Architect
-
-<img src="images/Alexandre_Quach_photo_2023.JPG" alt="Alexandre Quach - Collective Intelligence Architect" style="width: 200px; height: auto; border-radius: 10px; margin: 20px 0;">
+# Alexandre Quach - Collective Intelligence Architect
 
 **Executive Preparation coach** | Founder of [Komyu](https://www.komyu.fr) | Engineering Corporate Collectives
 
-
 ---
+
+<img src="images/Alexandre_Quach_photo_2023.JPG" alt="Alexandre Quach - Collective Intelligence Architect" style="width: 100px; height: auto; border-radius: 10px; margin: 20px 0;">
 
 ## About
 
