@@ -1,0 +1,78 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title }}",
+  "description": "{{ page.description }}",
+  "image": "{{ site.url }}/images/Alexandre_Quach_photo_2023.JPG",
+  "url": "{{ site.url }}{{ page.url }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{% if page.last_updated %}{{ page.last_updated | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author.name }}",
+    "jobTitle": "{{ site.author.title }}",
+    "url": "{{ site.url }}",
+    "sameAs": [
+      {% for profile in site.author.social_profiles %}
+      "{{ profile }}"{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/images/Alexandre_Quach_photo_2023.JPG"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  },
+  "keywords": [
+    {% if page.keywords %}
+      {% for keyword in page.keywords %}
+      "{{ keyword }}"{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    {% endif %}
+  ],
+  "about": [
+    {% if page.related_concepts %}
+      {% for concept in page.related_concepts %}
+      {
+        "@type": "Thing",
+        "name": "{{ concept }}"
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    {% endif %}
+  ],
+  "articleSection": "{{ page.categories | first | capitalize }}",
+  "wordCount": "{{ content | strip_html | number_of_words }}",
+  "inLanguage": "en-US",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}"
+  },
+  "potentialAction": {
+    "@type": "ReadAction",
+    "target": "{{ site.url }}{{ page.url }}"
+  },
+  {% if page.content_type %}
+  "genre": "{{ page.content_type }}",
+  {% endif %}
+  {% if page.ai_summary %}
+  "abstract": "{{ page.ai_summary }}",
+  {% endif %}
+  "teaches": [
+    {% if page.tags %}
+      {% for tag in page.tags %}
+      "{{ tag }}"{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    {% endif %}
+  ]
+}
+</script>
