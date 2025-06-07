@@ -1,0 +1,13 @@
+name: Auto-generate metadata
+on:
+  push:
+    paths: ['_insights/**', '_frameworks/**']
+
+jobs:
+  update-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update sitemap priorities
+        run: |
+          # Script pour auto-ajuster les priorités sitemap
+          # selon les nouveaux contenus
