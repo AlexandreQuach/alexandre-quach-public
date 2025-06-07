@@ -4,9 +4,9 @@ layout: default
 
 <!-- Article wrapper avec style moderne -->
 <article class="content">
-    <!-- Meta informations élégantes -->
+    <!-- Meta informations élégantes (SEULEMENT dans page.html) -->
     {% if page.category or page.date or page.content_type %}
-    <div class="flex flex-wrap items-center gap-3 mb-8 pb-6 border-b" style="border-color: var(--border);">
+    <div class="flex flex-wrap items-center gap-3 mb-6 pb-4 border-b" style="border-color: var(--border);">
         {% if page.category %}
         <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium border"
               style="background: rgba(20, 184, 166, 0.08); color: var(--secondary); border-color: rgba(20, 184, 166, 0.2);">
