@@ -32,6 +32,17 @@
     "@type": "WebPage",
     "@id": "{{ site.url }}{{ page.url }}"
   },
+  {% if page.original_source %}
+  "isBasedOn": {
+    "@type": "Article",
+    "url": "{{ page.original_source }}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "LinkedIn"
+    },
+    "datePublished": "{{ page.original_publication | default: 'May 2025' }}"
+  },
+  {% endif %}
   "keywords": [
   {% comment %}Keywords du front-matter{% endcomment %}
   {% if page.keywords %}
@@ -72,6 +83,9 @@
   {% if page.content_type %}
   "genre": "{{ page.content_type }}",
   {% endif %}
+  {% if page.framework_type %}
+  "educationalLevel": "{{ page.framework_type }}",
+  {% endif %}
   {% if page.ai_summary %}
   "abstract": "{{ page.ai_summary }}",
   {% endif %}
@@ -82,5 +96,31 @@
       {% endfor %}
     {% endif %}
   ]
+  {% if page.implementation_complexity or page.time_to_impact or page.resource_requirements %}
+  ,
+  "additionalProperty": [
+    {% if page.implementation_complexity %}
+    {
+      "@type": "PropertyValue",
+      "name": "Implementation Complexity",
+      "value": "{{ page.implementation_complexity }}"
+    }{% if page.time_to_impact or page.resource_requirements %},{% endif %}
+    {% endif %}
+    {% if page.time_to_impact %}
+    {
+      "@type": "PropertyValue", 
+      "name": "Time to Impact",
+      "value": "{{ page.time_to_impact }}"
+    }{% if page.resource_requirements %},{% endif %}
+    {% endif %}
+    {% if page.resource_requirements %}
+    {
+      "@type": "PropertyValue",
+      "name": "Resource Requirements", 
+      "value": "{{ page.resource_requirements }}"
+    }
+    {% endif %}
+  ]
+  {% endif %}
 }
 </script>

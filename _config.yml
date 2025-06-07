@@ -65,6 +65,12 @@ author:
     - "Silo Elimination"
     - "Cross-functional Leadership"
     - "Transversal Program Management"
+    - "OpenSeriousGame Movement"
+    - "Viral Knowledge Transmission"
+    - "Open Source Learning"
+    - "Movement Design"
+    - "Viral Transformation"
+    - "Hybrid Diffusion Strategy"
   
   # Méthodologies développées
   methodologies:
@@ -79,6 +85,9 @@ author:
     - "Coprompting"
     - "Cincinnatus Network"
     - "Supermind-us Framework"
+    - "OpenSeriousGame Movement"
+    - "Viral Transformation Design"
+    - "Hybrid Diffusion Strategy"
   
   # Expérience professionnelle
   experience_years: "15+"
@@ -267,8 +276,7 @@ future: false
 incremental: true
 profile: false
 
-
-# Ajoutez ces sections pour l'auto-génération
+# Auto-génération de contenu
 content_auto_detection:
   frameworks:
     - "ECC Method"
@@ -276,14 +284,23 @@ content_auto_detection:
     - "Solution Gatling"
     - "Supermind-us"
     - "Cincinnatus Network"
+    - "OpenSeriousGame"
+    - "Viral Transformation"
+    - "Knowledge Graphs"
+    - "Hypergraph Learning"
   
   expertise_keywords:
     - "collective intelligence"
     - "organizational transformation"
     - "executive coaching"
     - "human-AI collaboration"
+    - "viral knowledge transmission"
+    - "open source learning"
+    - "movement design"
+    - "serious games"
   
   company_keywords:
     - "alexandre quach"
     - "komyu"
     - "collective intelligence architect"
+    - "openseriousgame"

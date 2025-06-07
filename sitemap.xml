@@ -24,11 +24,18 @@ layout: null
   
   <!-- Frameworks : priorité élevée (vos concepts uniques) -->
   {% for page in site.frameworks %}
+    {% assign framework_priority = 0.8 %}
+    
+    <!-- Boost priorité pour frameworks clés -->
+    {% if page.title contains 'ECC Method' or page.title contains 'OpenSeriousGame' or page.title contains 'Compound Thinking' %}
+      {% assign framework_priority = 0.9 %}
+    {% endif %}
+    
     <url>
       <loc>{{ site.url }}{{ page.url }}</loc>
       <lastmod>{% if page.last_updated %}{{ page.last_updated | date_to_xmlschema }}{% else %}{{ page.date | default: site.time | date_to_xmlschema }}{% endif %}</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
+      <priority>{{ framework_priority }}</priority>
     </url>
   {% endfor %}
   
@@ -46,9 +53,19 @@ layout: null
       {% assign changefreq = "yearly" %}
     {% endif %}
     
-    <!-- Boost pour les concepts importants -->
-    {% if post.keywords contains 'ECC Method' or post.keywords contains 'Compound Thinking' or post.keywords contains 'Solution Gatling' or post.keywords contains 'Supermind' or post.keywords contains 'Cincinnatus Network' %}
+    <!-- Boost pour les concepts importants (keywords et contenu) -->
+    {% assign boost_concepts = false %}
+    {% if post.keywords contains 'ECC Method' or post.keywords contains 'Compound Thinking' or post.keywords contains 'Solution Gatling' or post.keywords contains 'Supermind' or post.keywords contains 'Cincinnatus Network' or post.keywords contains 'openseriousgame' or post.keywords contains 'viral transformation' %}
+      {% assign boost_concepts = true %}
+    {% endif %}
+    
+    {% if post.content contains 'ECC Method' or post.content contains 'OpenSeriousGame' or post.content contains 'Compound Thinking' or post.content contains 'Solution Gatling' or post.content contains 'viral transformation' %}
+      {% assign boost_concepts = true %}
+    {% endif %}
+    
+    {% if boost_concepts %}
       {% assign priority = priority | plus: 0.2 %}
+      {% if priority > 1.0 %}{% assign priority = 1.0 %}{% endif %}
     {% endif %}
     
     <url>
