@@ -95,9 +95,7 @@ This hybrid approach leveraged the **scale of digital broadcasting** while maint
 
 ### Individual Level 👥
 
-![Self-Growing System](https://media.licdn.com/dms/image/v2/D4E12AQFX3yu2TBH8bw/article-inline_image-shrink_1500_2232/B4EZb9UuFqGcAU-/0/1748006790519?e=1754524800&v=beta&t=oe40oT6xNzxXtYJ0pYeDXXwg9ueIDrWxZ6QCyci9Keg)
-
-*Self-growing growth system: the only way to go up is to do things that help other people go up*
+**Self-Growing Growth System**: The only way to advance is by helping others advance. This anti-pyramid structure ensures that individual evolution is based solely on helping others evolve, creating sustainable growth patterns.
 
 1. **Transmission-Focused Evolution**: Clear pathways for everyone to become transmitters
 2. **Anti-Pyramid Structure**: "One's evolution based solely on helping others evolve"
@@ -123,30 +121,18 @@ The framework was inspired by several key sources:
 
 - **[Plague Inc](https://www.ndemiccreations.com/en/22-plague-inc)**: Provided frameworks for viral thinking and virus design—how to create something that spreads organically and transforms its carriers
 
-![Plague Inc Game](https://media.licdn.com/dms/image/v2/D4E12AQHkVDhAsPqlUA/article-inline_image-shrink_1000_1488/B4EZb9Lz7UHQAU-/0/1748004455114?e=1754524800&v=beta&t=b09kPpIGqOQnfAnHryxUNFFmU6q43FlnooahJYi-ZP0)
-
-*Plague Inc is a game where your goal is to make sure a virus you engineer propagates to the world*
-
-![Plague Inc Evolution](https://media.licdn.com/dms/image/v2/D4E12AQEdIew2WKEwWQ/article-inline_image-shrink_1000_1488/B4EZb9MU1fHMAQ-/0/1748004600899?e=1754524800&v=beta&t=-U3nZQddwqZKTk59wNM-smmH8vf2XVDiYKoAtK_quPg)
-
-*In Plague Inc, you make your virus evolve and mutate to accelerate propagation*
+*Plague Inc demonstrated how to design systems for exponential propagation with mutations and adaptations that accelerate spread. Our goal was to apply these principles to positive knowledge transmission.*
 
 **[Factorio](https://www.factorio.com/)**: Inspired compound thinking and the layering of structural elements; designing systems that automate and expand themselves round after round
 
-![Factorio Automation](https://media.licdn.com/dms/image/v2/D4E12AQGvvxf8gcSZqw/article-inline_image-shrink_1500_2232/B4EZb9NWqtHMAc-/0/1748004864658?e=1754524800&v=beta&t=Ak0OWiEKEYIJTdzQctQV35BQPHVoJiZDCUB9EANjBvc)
-
-*In Factorio, once you achieve a certain level of building, your goal is to automate it to have more time for next level*  
+*Factorio taught us compound automation - each level of building enables higher levels of building. This became our model for how learning systems should evolve.*  
 - **[Foundation (Asimov)](https://en.wikipedia.org/wiki/Foundation_\(Asimov_novel\))**: The concept of creating a base of knowledge useful for generations to come
 
-![Foundation Books](https://media.licdn.com/dms/image/v2/D4E12AQHb-bHDcVqZLg/article-inline_image-shrink_1000_1488/B4EZb9OMfOHAAQ-/0/1748005080157?e=1754524800&v=beta&t=8wCabIHN8bPS01hZHHoLb5h7_q2_2wdm7J_QFBHYgu0)
-
-*Foundation books made OpenSeriousGame an adventure around civilizational goals*
+*Foundation books inspired OpenSeriousGame to think at civilizational scale - creating knowledge systems that could rebuild themselves across generations.*
 
 **[Cell to Singularity](https://celltosingularity.com/)**: Taught us to think in terms of evolutionary levels of increasing complexity
 
-![Cell to Singularity](https://media.licdn.com/dms/image/v2/D4E12AQEsqjZEMvN-Pg/article-inline_image-shrink_1500_2232/B4EZb9O2fzHkAY-/0/1748005251997?e=1754524800&v=beta&t=op3uePMwq80Gfy7-jWC8v9gbxRlG4UZBVaZ4nVLvRII)
-
-*In Cell to Singularity: evolutionary progression through complexity levels*
+*Cell to Singularity demonstrated how systems can evolve through complexity levels, where each stage enables the next level of development.*
 - **Martial Arts Propagation**: Learners naturally becoming teachers
 - **[Marcus Aurelius' Meditations](https://en.wikipedia.org/wiki/Meditations)**: Stoic principles of contributing to collective development beyond individual life
 
