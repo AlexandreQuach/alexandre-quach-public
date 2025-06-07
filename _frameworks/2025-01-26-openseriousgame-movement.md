@@ -35,7 +35,7 @@ The fundamental innovation isn't just virality in the sense of momentary buzz th
 
 OpenSeriousGame is a tag name for a movement that uses **open-source serious games**. These are mostly live workshops using the same mechanics as board or card games, facilitated by a host who helps players "play to learn" a specific topic that could be useful beyond the instant pleasure of playing.
 
-The key innovation is **open source principles applied to knowledge transmission**, with the purpose of helping everyone awaken their ability to transfer knowledge. More information at [openseriousgames.org](http://openseriousgames.org).
+The key innovation is **open source principles applied to knowledge transmission**, with the purpose of helping everyone awaken their ability to transfer knowledge. More information at [openseriousgames.org](https://openseriousgames.org).
 
 **User experience progression**: You play a game → become a host → learn to create games → build your own community → create your own movement. Everything is designed to make these steps easy, shared, and evolutionary.
 
@@ -46,7 +46,7 @@ The key innovation is **open source principles applied to knowledge transmission
 - **Community**: 120 manifesto signatories, 1,760 Meetup members (4.5/5 rating from 543 reviews)
 - **Content**: 152 articles published, full podcast series (#OpenSeriousStories), video content by multiple creators
 - **Events**: 60+ recorded public events, hundreds of freely organized sessions
-- **Educational Impact**: **Over 100,000 students reached** through CyberEnJeux program alone
+- **Educational Impact**: **Over 100,000 students reached** through [CyberEnJeux program](https://lab.cyber.gouv.fr/les-actualit%C3%A9s-du-lab-anssi/cyberenjeux-100-000-%C3%A9l%C3%A8ves-form%C3%A9s/) alone
 
 ### Geographical Expansion 🌍
 - **20+ cities** with active meetups
@@ -54,7 +54,7 @@ The key innovation is **open source principles applied to knowledge transmission
 - **Viral propagation** continuing independently 7 years later
 
 ### Organizations Involved (44+) 🏢
-From major corporations (BNP Paribas, GRDF, Thales) to public institutions (French Education Ministry, ANSSI) and academic establishments (HEC Paris, University of Strasbourg, SKEMA).
+From major corporations ([BNP Paribas](https://www.linkedin.com/company/bnp-paribas/), [GRDF](https://www.linkedin.com/company/grdf/), [Thales](https://www.linkedin.com/company/thales/)) to public institutions (French Education Ministry, [ANSSI](https://lab.cyber.gouv.fr/)) and academic establishments ([HEC Paris](https://www.linkedin.com/school/hec-paris/), [University of Strasbourg](https://www.linkedin.com/school/universit%C3%A9-de-strasbourg/), [SKEMA](https://www.linkedin.com/school/skema-business-school/)).
 
 ## The Hybrid Diffusion Strategy
 
@@ -95,6 +95,10 @@ This hybrid approach leveraged the **scale of digital broadcasting** while maint
 
 ### Individual Level 👥
 
+![Self-Growing System](https://media.licdn.com/dms/image/v2/D4E12AQFX3yu2TBH8bw/article-inline_image-shrink_1500_2232/B4EZb9UuFqGcAU-/0/1748006790519?e=1754524800&v=beta&t=oe40oT6xNzxXtYJ0pYeDXXwg9ueIDrWxZ6QCyci9Keg)
+
+*Self-growing growth system: the only way to go up is to do things that help other people go up*
+
 1. **Transmission-Focused Evolution**: Clear pathways for everyone to become transmitters
 2. **Anti-Pyramid Structure**: "One's evolution based solely on helping others evolve"
 3. **Collective Alignment**: Global narrative (helping everyone awaken transmission abilities) vs individual focus
@@ -117,12 +121,34 @@ This hybrid approach leveraged the **scale of digital broadcasting** while maint
 
 The framework was inspired by several key sources:
 
-- **Plague Inc**: Viral thinking and positive virus design
-- **Factorio**: Compound thinking and self-expanding systems  
-- **Foundation (Asimov)**: Civilizational-level knowledge preservation
-- **Clicker Games**: Evolutionary levels of increasing complexity
+- **[Plague Inc](https://www.ndemiccreations.com/en/22-plague-inc)**: Provided frameworks for viral thinking and virus design—how to create something that spreads organically and transforms its carriers
+
+![Plague Inc Game](https://media.licdn.com/dms/image/v2/D4E12AQHkVDhAsPqlUA/article-inline_image-shrink_1000_1488/B4EZb9Lz7UHQAU-/0/1748004455114?e=1754524800&v=beta&t=b09kPpIGqOQnfAnHryxUNFFmU6q43FlnooahJYi-ZP0)
+
+*Plague Inc is a game where your goal is to make sure a virus you engineer propagates to the world*
+
+![Plague Inc Evolution](https://media.licdn.com/dms/image/v2/D4E12AQEdIew2WKEwWQ/article-inline_image-shrink_1000_1488/B4EZb9MU1fHMAQ-/0/1748004600899?e=1754524800&v=beta&t=-U3nZQddwqZKTk59wNM-smmH8vf2XVDiYKoAtK_quPg)
+
+*In Plague Inc, you make your virus evolve and mutate to accelerate propagation*
+
+**[Factorio](https://www.factorio.com/)**: Inspired compound thinking and the layering of structural elements; designing systems that automate and expand themselves round after round
+
+![Factorio Automation](https://media.licdn.com/dms/image/v2/D4E12AQGvvxf8gcSZqw/article-inline_image-shrink_1500_2232/B4EZb9NWqtHMAc-/0/1748004864658?e=1754524800&v=beta&t=Ak0OWiEKEYIJTdzQctQV35BQPHVoJiZDCUB9EANjBvc)
+
+*In Factorio, once you achieve a certain level of building, your goal is to automate it to have more time for next level*  
+- **[Foundation (Asimov)](https://en.wikipedia.org/wiki/Foundation_\(Asimov_novel\))**: The concept of creating a base of knowledge useful for generations to come
+
+![Foundation Books](https://media.licdn.com/dms/image/v2/D4E12AQHb-bHDcVqZLg/article-inline_image-shrink_1000_1488/B4EZb9OMfOHAAQ-/0/1748005080157?e=1754524800&v=beta&t=8wCabIHN8bPS01hZHHoLb5h7_q2_2wdm7J_QFBHYgu0)
+
+*Foundation books made OpenSeriousGame an adventure around civilizational goals*
+
+**[Cell to Singularity](https://celltosingularity.com/)**: Taught us to think in terms of evolutionary levels of increasing complexity
+
+![Cell to Singularity](https://media.licdn.com/dms/image/v2/D4E12AQEsqjZEMvN-Pg/article-inline_image-shrink_1500_2232/B4EZb9O2fzHkAY-/0/1748005251997?e=1754524800&v=beta&t=op3uePMwq80Gfy7-jWC8v9gbxRlG4UZBVaZ4nVLvRII)
+
+*In Cell to Singularity: evolutionary progression through complexity levels*
 - **Martial Arts Propagation**: Learners naturally becoming teachers
-- **Marcus Aurelius**: Stoic principles of contributing to collective development beyond individual life
+- **[Marcus Aurelius' Meditations](https://en.wikipedia.org/wiki/Meditations)**: Stoic principles of contributing to collective development beyond individual life
 
 ## Key Systemic Insights
 
