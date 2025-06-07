@@ -2,43 +2,106 @@
 layout: default
 ---
 
-<!-- Page meta badges élégants - UNIQUEMENT pour layout page -->
-{% if page.layout == 'page' and (page.category or page.date or page.content_type or page.original_publication) %}
-<div class="flex flex-wrap items-center gap-3 mb-8">
-    {% if page.category %}
-    <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-secondary/10 text-secondary border border-secondary/20">
-        {{ page.category | capitalize }}
-    </span>
+<!-- Article wrapper avec style moderne -->
+<article class="content">
+    <!-- Meta informations élégantes (SEULEMENT dans page.html) -->
+    {% if page.category or page.date or page.content_type %}
+    <div class="flex flex-wrap items-center gap-3 mb-6 pb-4 border-b" style="border-color: var(--border);">
+        {% if page.category %}
+        <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium border"
+              style="background: rgba(20, 184, 166, 0.08); color: var(--secondary); border-color: rgba(20, 184, 166, 0.2);">
+            {{ page.category | capitalize }}
+        </span>
+        {% endif %}
+        
+        {% if page.date %}
+        <time datetime="{{ page.date | date_to_xmlschema }}" 
+              class="text-gray-500 text-sm font-medium flex items-center gap-1">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+            </svg>
+            {{ page.date | date: "%B %d, %Y" }}
+        </time>
+        {% endif %}
+        
+        {% if page.content_type %}
+        <span class="inline-flex items-center px-2 py-1 rounded text-xs font-semibold"
+              style="background: rgba(94, 234, 212, 0.15); color: var(--primary);">
+            {{ page.content_type | capitalize }}
+        </span>
+        {% endif %}
+        
+        {% if page.original_publication %}
+        <span class="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-gray-100 text-gray-600">
+            📝 Based on {{ page.original_publication }}
+        </span>
+        {% endif %}
+        
+        {% if page.last_updated %}
+        <span class="text-xs text-gray-400 ml-auto">
+            Updated {{ page.last_updated | date: "%b %d, %Y" }}
+        </span>
+        {% endif %}
+    </div>
     {% endif %}
-    {% if page.date %}
-    <time datetime="{{ page.date | date_to_xmlschema }}" 
-          class="text-gray-500 text-sm font-medium">
-        {{ page.date | date: "%B %d, %Y" }}
-    </time>
+    
+    <!-- Attribution source si contenu adapté -->
+    {% if page.original_source and page.original_publication %}
+    <div class="mb-8 p-4 bg-teal-50/50 border border-teal-100 rounded-lg">
+        <p class="text-sm text-gray-600">
+            <strong>Framework Analysis:</strong> This content builds upon insights originally shared in 
+            <a href="{{ page.original_source }}" target="_blank" rel="noopener" class="text-secondary hover:text-primary">{{ page.original_publication }}</a>, 
+            expanded here with systematic framework analysis and implementation guidance.
+        </p>
+    </div>
     {% endif %}
-    {% if page.content_type %}
-    <span class="inline-flex items-center px-2 py-1 rounded text-xs font-semibold bg-accent/20 text-primary">
-        {{ page.content_type | capitalize }}
-    </span>
+    
+    <!-- Contenu principal avec styling automatique -->
+    {{ content }}
+    
+    <!-- Navigation contextuelle si disponible -->
+    {% if page.categories contains 'insights' or page.categories contains 'frameworks' %}
+    <div class="mt-12 pt-8 border-t" style="border-color: var(--border);">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <!-- Tags si disponibles -->
+            {% if page.tags and page.tags.size > 0 %}
+            <div class="flex flex-wrap gap-2">
+                <span class="text-sm text-gray-500 font-medium">Related:</span>
+                {% for tag in page.tags limit:4 %}
+                <span class="inline-flex items-center px-2 py-1 rounded text-xs font-medium"
+                      style="background: var(--bg-subtle); color: var(--text-light);">
+                    {{ tag }}
+                </span>
+                {% endfor %}
+            </div>
+            {% endif %}
+            
+            <!-- Lien retour -->
+            <a href="{% if page.categories contains 'insights' %}{{ '/insights/' | relative_url }}{% elsif page.categories contains 'frameworks' %}{{ '/frameworks/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" 
+               class="inline-flex items-center gap-2 text-sm font-medium transition-colors"
+               style="color: var(--secondary);">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                </svg>
+                Back to {% if page.categories contains 'insights' %}Insights{% elsif page.categories contains 'frameworks' %}Frameworks{% else %}Home{% endif %}
+            </a>
+        </div>
+    </div>
     {% endif %}
-    {% if page.original_publication %}
-    <span class="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-gray-100 text-gray-600">
-        📝 Based on {{ page.original_publication }}
-    </span>
-    {% endif %}
+</article>
+
+<!-- Call-to-action contextuel pour pages importantes -->
+{% if page.categories contains 'frameworks' %}
+<div class="mt-16 p-6 rounded-lg border" 
+     style="background: linear-gradient(135deg, var(--bg-subtle) 0%, rgba(20, 184, 166, 0.05) 100%); border-color: var(--border);">
+    <div class="text-center">
+        <h3 class="text-lg font-semibold mb-2" style="color: var(--primary);">Ready to implement this framework?</h3>
+        <p class="text-gray-600 text-sm mb-4">Get in touch to discuss how this approach can transform your organization.</p>
+        <a href="{{ '/profile/' | relative_url }}" 
+           class="inline-flex items-center px-4 py-2 text-sm font-medium rounded-lg transition-all"
+           style="background: var(--secondary); color: white;">
+            Contact Alexandre
+        </a>
+    </div>
 </div>
 {% endif %}
-
-<!-- Attribution source si contenu adapté - UNIQUEMENT pour layout page -->
-{% if page.layout == 'page' and page.original_source and page.original_publication %}
-<div class="mb-8 p-4 bg-teal-50/50 border border-teal-100 rounded-lg">
-    <p class="text-sm text-gray-600">
-        <strong>Framework Analysis:</strong> This content builds upon insights originally shared in 
-        <a href="{{ page.original_source }}" target="_blank" rel="noopener" class="text-secondary hover:text-primary">{{ page.original_publication }}</a>, 
-        expanded here with systematic framework analysis and implementation guidance.
-    </p>
-</div>
-{% endif %}
-
-<!-- Le contenu de la page -->
-{{ content }}
