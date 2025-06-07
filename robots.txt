@@ -1,7 +1,16 @@
-/*
-  X-Frame-Options: DENY
-  X-Content-Type-Options: nosniff
-  X-XSS-Protection: 1; mode=block
-  Referrer-Policy: strict-origin-when-cross-origin
-  Permissions-Policy: geolocation=(), microphone=(), camera=()
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:;
+User-agent: *
+Allow: /
+
+# Bloquer les dossiers techniques
+Disallow: /.git/
+Disallow: /_includes/
+Disallow: /_layouts/
+Disallow: /_sass/
+Disallow: /Gemfile
+Disallow: /_config.yml
+
+# Sitemap
+Sitemap: https://quach.fr/sitemap.xml
+
+# Crawl-delay pour éviter surcharge
+Crawl-delay: 1
