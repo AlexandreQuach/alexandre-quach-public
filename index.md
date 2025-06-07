@@ -62,7 +62,7 @@ approach: ["Evidence-based", "Systematic", "Holistic", "Sustainable", "Scalable"
 delivery_methods: ["Executive Coaching", "Leadership Development", "Organizational Assessment", "Strategic Planning", "Workshop Facilitation", "Team Development", "Change Management", "Innovation Consulting", "Training Design", "Advisory Services"]
 ---
 
-# Alexandre Quach - Collective Intelligence Architect
+# Alexandre Quach
 
 **Executive Preparation coach** | Founder of [Komyu](https://www.komyu.fr) | Engineering Corporate Collectives
 
