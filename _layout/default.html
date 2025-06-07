@@ -105,43 +105,7 @@
     <main class="min-h-screen bg-gradient-to-br from-white to-teal-50/30">
         <div class="max-w-4xl mx-auto px-6 py-12">
             
-            <!-- Page meta badges élégants -->
-            {% if page.category or page.date or page.content_type or page.original_publication %}
-            <div class="flex flex-wrap items-center gap-3 mb-8">
-                {% if page.category %}
-                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-secondary/10 text-secondary border border-secondary/20">
-                    {{ page.category | capitalize }}
-                </span>
-                {% endif %}
-                {% if page.date %}
-                <time datetime="{{ page.date | date_to_xmlschema }}" 
-                      class="text-gray-500 text-sm font-medium">
-                    {{ page.date | date: "%B %d, %Y" }}
-                </time>
-                {% endif %}
-                {% if page.content_type %}
-                <span class="inline-flex items-center px-2 py-1 rounded text-xs font-semibold bg-accent/20 text-primary">
-                    {{ page.content_type | capitalize }}
-                </span>
-                {% endif %}
-                {% if page.original_publication %}
-                <span class="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-gray-100 text-gray-600">
-                    📝 Based on {{ page.original_publication }}
-                </span>
-                {% endif %}
-            </div>
-            {% endif %}
-            
-            <!-- Attribution source si contenu adapté -->
-            {% if page.original_source and page.original_publication %}
-            <div class="mb-8 p-4 bg-teal-50/50 border border-teal-100 rounded-lg">
-                <p class="text-sm text-gray-600">
-                    <strong>Framework Analysis:</strong> This content builds upon insights originally shared in 
-                    <a href="{{ page.original_source }}" target="_blank" rel="noopener" class="text-secondary hover:text-primary">{{ page.original_publication }}</a>, 
-                    expanded here with systematic framework analysis and implementation guidance.
-                </p>
-            </div>
-            {% endif %}
+
             
             <!-- Content avec typography premium -->
             <article class="prose prose-lg prose-gray max-w-none
