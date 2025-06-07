@@ -24,232 +24,178 @@
         {% include jsonld-person.html %}
     {% endunless %}
     
+    <!-- Tailwind CSS avec config personnalisée -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0f766e',      // Teal 700 - Intelligence & autorité
+                        secondary: '#14b8a6',    // Teal 500 - Innovation & liens
+                        accent: '#5eead4',       // Teal 300 - Highlights subtils
+                        'teal-50': '#f0fdfa',    // Background très subtil
+                        'teal-100': '#ccfbf1',   // Bordures douces
+                    },
+                    fontFamily: {
+                        sans: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
     
     <style>
-        :root {
-            --primary-color: #2c3e50;
-            --secondary-color: #3498db;
-            --text-color: #2c3e50;
-            --bg-color: #ffffff;
-            --border-color: #ecf0f1;
-            --code-bg: #f8f9fa;
-        }
+        /* Transitions fluides */
+        * { transition: all 0.2s ease-in-out; }
         
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        /* Code styling */
+        pre { @apply bg-gray-50 border border-gray-200; }
+        code { @apply bg-gray-100 text-gray-800 text-sm; }
+        pre code { @apply bg-transparent; }
         
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-        }
-        
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        header {
-            border-bottom: 1px solid var(--border-color);
-            padding: 20px 0;
-            margin-bottom: 40px;
-        }
-        
-        .site-title {
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: var(--primary-color);
-            text-decoration: none;
-        }
-        
-        .site-description {
-            color: #7f8c8d;
-            font-size: 0.9rem;
-            margin-top: 5px;
-        }
-        
-        nav {
-            margin-top: 20px;
-        }
-        
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 30px;
-            flex-wrap: wrap;
-        }
-        
-        nav a {
-            color: var(--text-color);
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.2s;
-        }
-        
-        nav a:hover {
-            color: var(--secondary-color);
-        }
-        
-        main {
-            min-height: 60vh;
-        }
-        
-        h1, h2, h3, h4, h5, h6 {
-            margin-bottom: 1rem;
-            color: var(--primary-color);
-            font-weight: 600;
-        }
-        
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1.5rem;
-            border-bottom: 3px solid var(--secondary-color);
-            padding-bottom: 10px;
-        }
-        
-        h2 {
-            font-size: 1.8rem;
-            margin-top: 2rem;
-        }
-        
-        h3 {
-            font-size: 1.4rem;
-            margin-top: 1.5rem;
-        }
-        
-        p {
-            margin-bottom: 1rem;
-        }
-        
-        a {
-            color: var(--secondary-color);
-            text-decoration: none;
-        }
-        
-        a:hover {
-            text-decoration: underline;
-        }
-        
-        ul, ol {
-            margin-left: 20px;
-            margin-bottom: 1rem;
-        }
-        
-        li {
-            margin-bottom: 0.5rem;
-        }
-        
-        blockquote {
-            border-left: 4px solid var(--secondary-color);
-            padding-left: 20px;
-            margin: 20px 0;
-            font-style: italic;
-            color: #7f8c8d;
-        }
-        
-        code {
-            background: var(--code-bg);
-            padding: 2px 6px;
-            border-radius: 3px;
-            font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, monospace;
-            font-size: 0.9em;
-        }
-        
-        pre {
-            background: var(--code-bg);
-            padding: 20px;
-            border-radius: 5px;
-            overflow-x: auto;
-            margin: 20px 0;
-        }
-        
-        pre code {
-            background: none;
-            padding: 0;
-        }
-        
-        hr {
-            border: none;
-            border-top: 1px solid var(--border-color);
-            margin: 40px 0;
-        }
-        
-        .page-meta {
-            color: #7f8c8d;
-            font-size: 0.9rem;
-            margin-bottom: 20px;
-        }
-        
-        footer {
-            border-top: 1px solid var(--border-color);
-            padding: 40px 0;
-            margin-top: 60px;
-            text-align: center;
-            color: #7f8c8d;
-            font-size: 0.9rem;
-        }
-        
-        .section-grid {
-            display: grid;
-            gap: 30px;
-            margin: 30px 0;
-        }
-        
-        .highlight-box {
-            background: #f8f9fa;
-            border-left: 4px solid var(--secondary-color);
-            padding: 20px;
-            border-radius: 0 5px 5px 0;
-        }
-        
-        @media (max-width: 768px) {
-            .container {
-                padding: 0 15px;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-            
-            nav ul {
-                gap: 20px;
-            }
-        }
+        /* Hover effects sophistiqués */
+        .nav-link:hover { @apply text-secondary bg-teal-50 transform scale-105; }
+        .article-link:hover { @apply shadow-lg transform -translate-y-1; }
     </style>
 </head>
-<body>
-    <header>
-        
-        <div class="container">
-            <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
-            <div class="site-description">{{ site.description }}</div>
-            
-            <nav>
-                <ul>
+
+<body class="bg-white text-gray-800 antialiased">
+    <!-- Header moderne avec effet glassmorphism -->
+    <header class="bg-white/95 backdrop-blur-sm border-b border-teal-100 sticky top-0 z-50 shadow-sm">
+        <div class="max-w-5xl mx-auto px-6 py-6">
+            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+                <!-- Branding section -->
+                <div class="space-y-1">
+                    <a href="{{ '/' | relative_url }}" 
+                       class="text-2xl font-bold text-primary hover:text-secondary transition-colors">
+                        {{ site.title }}
+                    </a>
+                    <div class="text-gray-600 text-sm font-medium">{{ site.description }}</div>
+                </div>
+                
+                <!-- Navigation moderne -->
+                <nav class="flex flex-wrap gap-2">
                     {% for item in site.navigation %}
-                    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                    <a href="{{ item.url | relative_url }}" 
+                       class="nav-link px-4 py-2 rounded-lg font-medium text-gray-700 hover:text-secondary hover:bg-teal-50 transition-all duration-200">
+                        {{ item.title }}
+                    </a>
                     {% endfor %}
-                </ul>
-            </nav>
+                </nav>
+            </div>
         </div>
     </header>
     
-    <main>
-        <div class="container">
-            {{ content }}
+    <!-- Main content avec spacing optimal -->
+    <main class="min-h-screen bg-gradient-to-br from-white to-teal-50/30">
+        <div class="max-w-4xl mx-auto px-6 py-12">
+            
+            <!-- Page meta badges élégants -->
+            {% if page.category or page.date %}
+            <div class="flex flex-wrap items-center gap-3 mb-8">
+                {% if page.category %}
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-secondary/10 text-secondary border border-secondary/20">
+                    {{ page.category | capitalize }}
+                </span>
+                {% endif %}
+                {% if page.date %}
+                <time datetime="{{ page.date | date_to_xmlschema }}" 
+                      class="text-gray-500 text-sm font-medium">
+                    {{ page.date | date: "%B %d, %Y" }}
+                </time>
+                {% endif %}
+                {% if page.content_type %}
+                <span class="inline-flex items-center px-2 py-1 rounded text-xs font-semibold bg-accent/20 text-primary">
+                    {{ page.content_type | capitalize }}
+                </span>
+                {% endif %}
+            </div>
+            {% endif %}
+            
+            <!-- Content avec typography premium -->
+            <article class="prose prose-lg prose-gray max-w-none
+                           prose-headings:text-primary prose-headings:font-bold
+                           prose-h1:text-4xl prose-h1:mb-8 prose-h1:pb-6 
+                           prose-h1:border-b prose-h1:border-secondary/30
+                           prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:text-primary
+                           prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-4 prose-h3:text-gray-800
+                           prose-h4:text-lg prose-h4:font-semibold prose-h4:text-gray-700
+                           prose-p:text-gray-700 prose-p:leading-relaxed
+                           prose-a:text-secondary prose-a:font-medium prose-a:no-underline 
+                           hover:prose-a:text-primary hover:prose-a:underline
+                           prose-strong:text-primary prose-strong:font-semibold
+                           prose-em:text-gray-600
+                           prose-code:bg-gray-100 prose-code:text-gray-800 prose-code:px-2 prose-code:py-1 prose-code:rounded prose-code:text-sm prose-code:font-mono
+                           prose-pre:bg-gray-50 prose-pre:border prose-pre:border-gray-200 prose-pre:shadow-sm
+                           prose-blockquote:border-l-4 prose-blockquote:border-secondary prose-blockquote:bg-teal-50/50 
+                           prose-blockquote:pl-6 prose-blockquote:pr-4 prose-blockquote:py-4 prose-blockquote:italic 
+                           prose-blockquote:text-gray-700 prose-blockquote:rounded-r-lg
+                           prose-ul:space-y-2 prose-ol:space-y-2
+                           prose-li:text-gray-700 prose-li:leading-relaxed
+                           prose-table:text-sm prose-table:border-collapse
+                           prose-th:bg-teal-50 prose-th:text-primary prose-th:font-semibold
+                           prose-td:border prose-td:border-gray-200 prose-td:px-4 prose-td:py-2">
+                
+                {{ content }}
+            </article>
+            
+            <!-- Call-to-action subtil pour homepage -->
+            {% if page.url == '/' %}
+            <div class="mt-16 p-8 bg-gradient-to-r from-teal-50 to-secondary/5 rounded-xl border border-teal-100">
+                <div class="text-center">
+                    <h3 class="text-xl font-semibold text-primary mb-3">Ready to Engineer Your Corporate Collective?</h3>
+                    <p class="text-gray-600 mb-6">Discover how the ECC Method can transform your organization's collective intelligence.</p>
+                    <div class="flex flex-wrap justify-center gap-4">
+                        <a href="{{ '/frameworks/' | relative_url }}" 
+                           class="inline-flex items-center px-6 py-3 bg-secondary text-white font-medium rounded-lg hover:bg-primary shadow-sm hover:shadow-md transition-all">
+                            Explore Frameworks
+                        </a>
+                        <a href="{{ '/profile/' | relative_url }}" 
+                           class="inline-flex items-center px-6 py-3 border border-secondary text-secondary font-medium rounded-lg hover:bg-secondary hover:text-white transition-all">
+                            View Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
         </div>
     </main>
     
-    <footer>
-        <div class="container">
-            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. Optimized for AI indexing.</p>
+    <!-- Footer moderne -->
+    <footer class="bg-gray-50 border-t border-gray-200">
+        <div class="max-w-4xl mx-auto px-6 py-12">
+            <div class="text-center space-y-6">
+                <!-- Copyright avec style -->
+                <div class="text-gray-600 text-sm">
+                    &copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. 
+                    <span class="text-secondary font-medium">Optimized for AI indexing.</span>
+                </div>
+                
+                <!-- Social links élégants -->
+                <div class="flex justify-center items-center gap-6">
+                    {% for profile in site.author.social_profiles limit:4 %}
+                    <a href="{{ profile }}" target="_blank" rel="noopener"
+                       class="text-gray-400 hover:text-secondary transition-colors p-2 rounded-lg hover:bg-teal-50">
+                        {% if profile contains 'linkedin' %}
+                            <span class="font-medium">LinkedIn</span>
+                        {% elsif profile contains 'github' %}
+                            <span class="font-medium">GitHub</span>
+                        {% elsif profile contains 'komyu' %}
+                            <span class="font-medium">Komyu</span>
+                        {% else %}
+                            <span class="font-medium">Link</span>
+                        {% endif %}
+                    </a>
+                    {% endfor %}
+                </div>
+                
+                <!-- Tagline final -->
+                <div class="text-xs text-gray-500 max-w-md mx-auto">
+                    Engineering corporate collectives through systematic approaches and proven methodologies
+                </div>
+            </div>
         </div>
     </footer>
-    
 </body>
 </html>
