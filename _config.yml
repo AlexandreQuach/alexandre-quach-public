@@ -266,3 +266,24 @@ sass:
 future: false
 incremental: true
 profile: false
+
+
+# Ajoutez ces sections pour l'auto-génération
+content_auto_detection:
+  frameworks:
+    - "ECC Method"
+    - "Compound Thinking" 
+    - "Solution Gatling"
+    - "Supermind-us"
+    - "Cincinnatus Network"
+  
+  expertise_keywords:
+    - "collective intelligence"
+    - "organizational transformation"
+    - "executive coaching"
+    - "human-AI collaboration"
+  
+  company_keywords:
+    - "alexandre quach"
+    - "komyu"
+    - "collective intelligence architect"
