@@ -620,8 +620,229 @@ The ultimate goal isn't just better learning communities—it's **learning ecosy
 
 **Every community has the potential for systematic improvement.** The OSG method simply provides a structured, low-tech way to unlock that potential, one enhancement at a time—creating resilient foundations ready for whatever technological capabilities the future may bring.
 
+## Appendix: Practical Deployment Guide
+
+*This section integrates proven deployment methodologies from the OpenSeriousGame ecosystem (2018-2022)*
+
+### Pre-Deployment Assessment: 7 Essential Questions
+
+Before implementing the OSG method, evaluate your community's readiness using these diagnostic questions:
+
+#### 1. 🧮 What type of community do you have?
+
+**OSG is less suitable for:**
+- ✖️ Follower-based networks (e.g., social media followings)
+- ✖️ Very small groups (<10) without growth ambitions
+- ✖️ Non-knowledge-based communities
+
+**OSG thrives in:**
+- ✅ Corporate learning communities
+- ✅ Peer learning groups (university or enterprise)
+- ✅ Professional consultant networks
+- ✅ Associations or Meetup groups
+- ✅ Communities focused on transformation (Agile, digital, cultural)
+
+#### 2. 📡 To what extent do you want to foster transmission?
+
+**Choose OSG if your goal is:**
+- Support members in adopting and spreading knowledge
+- Decentralize contribution and build autonomous transmission
+- Value peer-to-peer learning and structured role evolution
+
+**Avoid OSG if:**
+- You only want gamification without behavioral change
+- You want virality (visibility) without transmission (knowledge ownership)
+
+#### 3. 🔄 Can members actually transmit to one another?
+
+**OSG assumes your community members can:**
+- [ ] Meet (virtually or physically)
+- [ ] Organize content or events
+- [ ] Be visible and active participants
+
+**Not a good fit if:**
+- Members are isolated and unknown to each other
+- There's no infrastructure for collaboration
+
+#### 4. ⏳ What is the expected lifespan of your community?
+
+- **Short-lived or ephemeral groups** ➡️ OSG may be excessive overhead
+- **Long-term or evolving collectives** ➡️ OSG provides lasting structure
+
+*Note: OSG helps prevent core member fatigue by enabling others to step up gradually*
+
+#### 5. 🤝 Are members culturally open to sharing?
+
+**OSG works when:**
+- Members value growing and helping others grow
+- Knowledge is meant to be shared, not hoarded
+- Collaboration is preferred over competition
+
+**Avoid if:**
+- The culture encourages exclusivity and knowledge retention
+- Members primarily seek personal advancement over collective benefit
+
+#### 6. 🧰 Are you ready to invest energy and minimal resources?
+
+**OSG requires:**
+- [ ] Time and commitment (not necessarily money!)
+- [ ] Support from facilitators or ambassadors
+- [ ] Alignment with transmission values
+- [ ] Patience for gradual development
+
+*OSG can be run with limited budget—what matters most is collective motivation*
+
+#### 7. 🧭 Do you know where to find help?
+
+**OSG is supported by:**
+- Large open-source ecosystem of practitioners
+- Active online communities (Slack, Discord, LinkedIn)
+- Public guides, templates, and shared experiences
+- Community of practice for troubleshooting
+
+*You're not alone in this journey—leverage the existing ecosystem*
+
+### Implementation Roadmap: 7-Step Deployment Process
+
+Once you've confirmed readiness, follow this systematic deployment approach:
+
+#### Step 1: Define and Share a Clear Vision 👓
+
+**Workshop with Core Members:**
+- [ ] Define community purpose and transformation goals
+- [ ] Envision what successful transmission looks like in 6-12 months
+- [ ] Identify key success indicators and milestones
+- [ ] Create alignment on OSG implementation scope
+
+**Communication Strategy:**
+- [ ] Document vision in accessible format (document, image, or video)
+- [ ] Share across community using multiple channels
+- [ ] Gather feedback and refine based on member input
+- [ ] Establish regular communication rhythm
+
+#### Step 2: Prioritize What to Launch First 🧩
+
+**OSG Implementation Modules:**
+
+| Priority Level | Module Focus | Implementation Actions |
+|----------------|--------------|----------------------|
+| **High** | 📚 Content Transmissibility | Transform existing content for peer delivery |
+| **Medium** | 📈 Value of Transmission | Implement measurement and feedback systems |
+| **Low** | 🧑‍🏫 Number of Transmitters | Expand facilitator network |
+
+**Selection Criteria Checklist:**
+- [ ] Most urgent community need addressed
+- [ ] Lowest implementation complexity
+- [ ] Highest member interest level
+- [ ] Greatest potential for early wins
+
+#### Step 3: Establish the OpenSeriousPath 🪜
+
+**Role Progression Framework:**
+
+| Level | Role | Key Characteristics | Implementation Support |
+|-------|------|-------------------|----------------------|
+| 1 | 🧐 **Curious** | Discovery and initial engagement | Welcome materials, orientation sessions |
+| 2 | 🎮 **Player** | Active participation in learning | Quality experiences, feedback collection |
+| 3 | 🔍 **Explorer** | Event organization without facilitation | Planning templates, coordination tools |
+| 4 | 🤝 **Co-Animator** | Supported co-facilitation | Mentorship program, shared facilitation |
+| 5 | 🎤 **Animator** | Independent facilitation | Full facilitation training, quality support |
+| 6 | 🌐 **Game Community Booster** | Community development | Community management tools, networking |
+| 7 | 🧩 **Method Designer** | Framework evolution | Meta-level training, innovation support |
+
+**Implementation Checklist:**
+- [ ] Communicate role descriptions clearly
+- [ ] Enable member self-identification and progression
+- [ ] Track progression transparently
+- [ ] Celebrate role advancement
+- [ ] Provide support materials for each level
+
+#### Step 4: Implement Core Processes 🔄
+
+**Process Systematization:**
+- [ ] Transform one-shot events into repeatable cycles
+- [ ] Implement feedback collection after every session
+- [ ] Establish improvement iteration rhythms
+- [ ] Create reusable formats and templates
+- [ ] Build community routines and expectations
+
+**Infrastructure Requirements:**
+- [ ] Community calendar system
+- [ ] Tutorial and guidance repository
+- [ ] Process documentation (wiki or knowledge base)
+- [ ] Peer contact and mentorship networks
+- [ ] Quality assurance frameworks
+
+#### Step 5: Build a Content Strategy 🧠
+
+**Role-Based Content Mapping:**
+
+| Role | Content Needs | Delivery Format | Quality Standards |
+|------|---------------|-----------------|-------------------|
+| **Curious** | Invitations, introductions, orientation | Welcome packets, overview sessions | Clear expectations, low barrier |
+| **Player** | Interactive experiences, learning activities | Workshop formats, serious games | Engaging, practical, valuable |
+| **Explorer** | Organization tips, coordination guidance | Planning templates, checklists | Systematic, comprehensive |
+| **Co-Animator** | Facilitation scripts, timing support | Co-facilitation guides, mentorship | Supportive, confidence-building |
+| **Animator** | Complete facilitation playbooks | Full facilitation training | Independent capability development |
+
+**Content Development Checklist:**
+- [ ] Apply OpenSeriousTemplate for consistency
+- [ ] Ensure content is self-contained and reusable
+- [ ] Create modular components for flexible combination
+- [ ] Establish content quality standards
+- [ ] Implement peer review processes
+
+#### Step 6: Launch Your First Events 🎤
+
+**Event Strategy:**
+- [ ] Start with recurring events to establish patterns
+- [ ] Lower onboarding barriers through familiarity
+- [ ] Enable members to test multiple roles safely
+- [ ] Create progression opportunities within events
+
+**Example Implementation Path:**
+1. **Play a game** → Experience the method firsthand
+2. **Present it next time** → Share experience with others
+3. **Co-animate** → Support facilitation with guidance
+4. **Animate alone** → Take full facilitation responsibility
+
+**Launch Event Checklist:**
+- [ ] Clear objectives and success criteria defined
+- [ ] All necessary materials and logistics prepared
+- [ ] Facilitator support and backup plans ready
+- [ ] Feedback collection systems in place
+- [ ] Follow-up and iteration plan established
+
+#### Step 7: Expand and Enrich 🌍
+
+**Evolution Strategy:**
+- [ ] Add new modules, tools, or community rituals
+- [ ] Explore complementary frameworks (Open Space Technology, Work Out Loud)
+- [ ] Maintain learning orientation and ecosystem contribution
+- [ ] Share successes and lessons with broader OSG community
+
+**Continuous Improvement:**
+- [ ] Regular community health assessments
+- [ ] Member feedback integration cycles
+- [ ] Content and process iteration
+- [ ] Success story documentation and sharing
+- [ ] Contribution to OSG method evolution
+
+### Integration with Existing Framework
+
+This deployment guide complements the three-pillar OSG framework (Value, Transmission Power, Content Transmissibility) by providing:
+
+- **Readiness Assessment**: Ensures proper fit before implementation
+- **Systematic Deployment**: Step-by-step approach reducing implementation risk
+- **Practical Tools**: Checklists and templates for consistent execution
+- **Quality Assurance**: Standards and processes for sustainable operation
+
+The combination of strategic framework (three pillars) and tactical deployment (seven steps) creates a comprehensive approach to community transformation that worked effectively in the pre-AI era and provides robust foundations for future AI-enhanced implementations.
+
 ---
 
 *Learn more about OSG method implementation at [openseriousgames.org](https://openseriousgames.org)*
+
+*Detailed deployment resources: [7 Questions Before Launching](https://openseriousgames.org/7-questions-a-se-poser-avant-de-lancer-la-methode-osg-pour-votre-communaute/) and [7 Steps to Deploy](https://openseriousgames.org/7-etapes-pour-mettre-en-place-osg-dans-votre-communaute/)*
 
 *This framework is part of a broader collection of systems thinking methodologies. Explore more at [quach.fr/frameworks](https://quach.fr/frameworks)*
