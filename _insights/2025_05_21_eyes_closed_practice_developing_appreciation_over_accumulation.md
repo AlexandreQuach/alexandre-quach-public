@@ -12,6 +12,7 @@ ai_summary: "Alexandre Quach presents a systematic practice for developing appre
 tags: ["mindful appreciation", "attention training", "sensory practice", "overconsumption", "gratitude", "slow living", "self-regulation"]
 related_concepts: ["connection density", "compound thinking", "cincinnatus network", "personal wisdom development"]
 practice_origin: "Milan-Paris train journey reflection"
+permalink: /insights/eyes-closed-practice-developing-appreciation-over-accumulation/
 ---
 
 # Eyes Closed: A Practice for Developing Appreciation Over Accumulation

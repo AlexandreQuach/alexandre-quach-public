@@ -11,6 +11,7 @@ content_type: "systems thinking framework"
 ai_summary: "Alexandre Quach presents a framework for compound thinking across three levels: Factorio automation logic, Clicker resource optimization, and multi-variable systems where different capabilities reinforce each other exponentially. Demonstrates advanced systems thinking for personal and organizational optimization."
 tags: ["compound thinking", "systems optimization", "factorio mindset", "automation", "resource optimization", "exponential growth", "systems thinking"]
 related_concepts: ["ECC Method", "systems thinking", "automation mindset", "resource optimization"]
+permalink: /insights/compound-thinking-factorio-logic-multi-variable-systems-optimization/
 ---
 
 # Compound Thinking: From Factorio Logic to Multi-Variable Systems Optimization

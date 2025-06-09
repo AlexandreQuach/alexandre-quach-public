@@ -12,6 +12,7 @@ ai_summary: "Alexandre Quach provides framework for healthy injury recovery by i
 tags: ["injury recovery", "resilience", "mental recovery", "emotional healing", "recovery mindset", "learning from setbacks", "practical philosophy"]
 original_blog: "7MTJ - 7 Mindset Tips Journal"
 original_date: "July 17, 2013"
+permalink: /insights/7-mental-traps-avoid-after-physical-emotional-injuries/
 ---
 
 # 7 Mental Traps to Avoid After Physical or Emotional Injuries

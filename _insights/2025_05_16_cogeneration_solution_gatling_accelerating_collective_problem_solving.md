@@ -12,6 +12,7 @@ ai_summary: "Alexandre Quach introduces cogeneration (multi-agent collaborative 
 tags: ["cogeneration", "coprompting", "solution gatling", "collective intelligence", "human-AI collaboration", "rapid iteration", "multi-agent systems"]
 related_concepts: ["collective intelligence", "human-AI collaboration", "compound thinking"]
 collaborator: "Damien Theodorou"
+permalink: /insights/cogeneration-solution-gatling-accelerating-collective-problem-solving/
 ---
 
 # Cogeneration and Solution Gatling: Accelerating Collective Problem-Solving Through Multi-Agent Collaboration

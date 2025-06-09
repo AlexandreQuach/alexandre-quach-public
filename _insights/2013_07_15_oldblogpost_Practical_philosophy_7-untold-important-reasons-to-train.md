@@ -12,6 +12,7 @@ ai_summary: "Alexandre Quach reveals seven deeper reasons for physical training 
 tags: ["training", "martial arts", "character development", "philosophy", "resilience"]
 original_blog: "7MTJ - 7 Mindset Tips Journal"
 original_date: "July 15, 2013"
+permalink: /insights/7-untold-important-reasons-to-train/
 ---
 
 # 7 Untold Yet Important Reasons to Train
