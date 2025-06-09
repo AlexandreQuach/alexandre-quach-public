@@ -132,7 +132,6 @@ company:
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: /:categories/:title/
 
 # Plugins
 plugins:
@@ -243,12 +242,12 @@ timezone: "Europe/Paris"
 # Contact information
 contact:
   email: "alexandre.quach@komyu.fr"
-  phone: null  # Pas publié
+  phone: null
   address:
     locality: "Paris"
     region: "Île-de-France"
     country: "France"
-    postal_code: null  # Pas publié
+    postal_code: null
 
 # Exclude from processing
 exclude:
