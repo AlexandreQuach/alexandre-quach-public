@@ -19,7 +19,7 @@ related_concepts: ["OpenSeriousGame movement", "neuro-symbolic AI", "compound th
 
 ## The Uncomfortable Truth: OSG's Structural Limitations 🤔💭
 
-After 7 years building the OpenSeriousGame movement, reaching 100,000+ learners, and creating a viral knowledge transmission ecosystem, I must confront an uncomfortable reality: **OpenSeriousGame will indeed become obsolete and outdated in its current form**. 📉⚰️
+After 7 years building the OpenSeriousGame movement, reaching thousands of learners, and creating a viral knowledge transmission ecosystem, I must confront an uncomfortable reality: **OpenSeriousGame will indeed become obsolete and outdated in its current form**. 📉⚰️
 
 This isn't a failure—it was useful for several years and accomplished its mission. But the current format is **structurally and systematically limited** for the class of problems we face in the AI era. 🤖⚡
 
