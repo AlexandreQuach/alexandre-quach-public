@@ -144,13 +144,13 @@ plugins:
 collections:
   profile:
     output: true
-    permalink: /profile/:name/
+    # permalink: /profile/:name/
   frameworks:
     output: true
-    permalink: /frameworks/:name/
+    # permalink: /frameworks/:name/
   insights:
     output: true
-    permalink: /insights/:name/
+    # permalink: /insights/:name/
 
 # Defaults for collections
 defaults:
