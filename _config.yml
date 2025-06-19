@@ -190,12 +190,6 @@ collections:
   insights:
     output: true
     permalink: /insights/:name/
-  agents:
-    output: true
-    permalink: /agents/:name/
-  superminds:
-    output: true
-    permalink: /superminds/:name/
 
 # Defaults for collections avec focus IA
 defaults:
