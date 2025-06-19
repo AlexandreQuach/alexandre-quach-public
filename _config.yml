@@ -1,6 +1,6 @@
 # Site settings
-title: "Alexandre Quach - Collective Intelligence Architect"
-description: "Executive Preparation coach | Engineering Corporate Collectives | Komyu Founder"
+title: "Alexandre Quach - AI-Augmented Preparator for Executives"
+description: "AI-Augmented Preparator for Executives and Corporate Transversal Leaders | Creating methods and agents for next-generation decision-making | Engineering human-AI superminds"
 url: "https://quach.fr"
 baseurl: ""
 repository: "AlexandreQuach/alexandre-quach-public"
@@ -8,97 +8,130 @@ layouts_dir: _layout
 includes_dir: _includes
 theme: null
 
-# Author - Section enrichie pour JSON-LD
+# Author - Section enrichie pour l'IA et les superminds
 author:
   name: "Alexandre Quach"
-  title: "Collective Intelligence Architect"
+  title: "AI-Augmented Preparator for Executives and Corporate Transversal Leaders"
   email: "alexandre@quach.fr"
-  bio: "Founder of Komyu, specializing in augmented collective intelligence and engineering corporate collectives."
+  bio: "Founder of Komyu, specializing in AI-augmented collective intelligence and engineering human-AI superminds for corporate transformation."
+  tagline: "Creating methods and agents for next-generation decision-making"
   
-  # Education - Diplômes (Alumni status)
+  # Education - Diplômes (Alumni status) avec focus IA
   alumni_of:
     - institution: "ENSTA ParisTech"
       degree: "Ingénieur Systèmes d'Information et de Production"
       year: "2009"
       status: "Alumni"
+      ai_relevance: "Engineering mindset applied to AI-human systems"
     - institution: "Sorbonne Paris I"
       degree: "Master II Conseil, Organisation, Stratégie d'entreprise et Systèmes d'Information"
       year: "2009"
       status: "Alumni"
+      ai_relevance: "Strategic foundations for AI transformation"
     - institution: "MIT Sloan School of Management"
-      program: "Advanced Certificate Executive (ACE)"
+      program: "Advanced Certificate Executive (ACE) + AI Strategy and Leadership"
       status: "Executive Alumni"
+      ai_focus: "AI Strategy, Machine Learning, Business Analytics, Digital Transformation"
   
-  # Certifications professionnelles
-  professional_certifications:
+  # Certifications professionnelles IA-focusées
+  ai_professional_certifications:
+    - institution: "MIT xPRO"
+      program: "AI Strategy and Leadership Program"
+      year: "2025"
+      focus: "Executive AI governance, human-AI collaboration, organizational AI transformation"
     - institution: "Stanford Online"
       program: "Professional Program in Generative AI"
       year: "2025"
+      focus: "Technical AI fundamentals, human-centered AI, business applications"
     - institution: "Harvard Online"
       program: "Leadership and Communication Programs"
       year: "2024"
+      ai_enhancement: "Leadership preparation for AI-augmented environments"
     - institution: "UC Berkeley"
       program: "Foundations of Happiness at Work"
       year: "2025"
+      ai_relevance: "Human well-being in AI-augmented workplaces"
     - institution: "Daniel Goleman Institute"
       program: "Emotional Intelligence Foundational Skills"
       year: "2025"
+      ai_relevance: "Human-AI emotional collaboration"
   
-  # Domaines d'expertise pour JSON-LD
-  expertise_areas:
-    - "Collective Intelligence"
-    - "Human-AI Collaboration"
-    - "Organizational Transformation"
-    - "ECC Method"
-    - "Engineering Corporate Collectives"
-    - "Compound Thinking"
-    - "Knowledge Graphs"
-    - "Hypergraph Learning"
-    - "Systems Thinking"
-    - "Executive Coaching"
-    - "Agile Methodology"
-    - "Change Management"
-    - "Solution Gatling"
-    - "Cogeneration"
-    - "Coprompting"
+  # Domaines d'expertise IA pour JSON-LD
+  ai_expertise_areas:
+    - "AI-Augmented Executive Coaching"
+    - "Human-AI Supermind Engineering"
+    - "Agentic Decision Support Systems"
+    - "Collective Prompt Engineering"
+    - "Shared Agent Architectures"
+    - "AI-Enhanced Collective Intelligence"
+    - "Executive AI Preparation"
+    - "Transversal AI Leadership"
+    - "AI-Powered Organizational Transformation"
+    - "Hybrid Intelligence Systems"
+    - "AI-Human Collaboration Design"
+    - "Next-Generation Decision-Making"
+    - "AI Strategy for Executives"
+    - "Corporate AI Readiness"
+    - "AI Governance for Leaders"
+    - "AI-Augmented Change Management"
+    - "Executive AI Literacy"
+    - "AI Transformation Leadership"
+    - "Intelligent Organization Design"
+    - "AI-Enhanced Cross-Functional Leadership"
     - "Supermind Architecture"
-    - "Silo Elimination"
+    - "Agentic Organizational Design"
+    - "AI-Powered Silo Breaking"
+    - "Collective AI Orchestration"
+    - "Executive AI Coaching Agents"
+  
+  # Méthodologies IA développées
+  ai_methodologies:
+    - "AI-Enhanced ECC Method"
+    - "Supermind Engineering Framework"
+    - "Agentic Decision Support Architecture"
+    - "Collective Prompt Engineering Methodology"
+    - "Shared Agent Collaboration Systems"
+    - "AI-Augmented Compound Learning"
+    - "Hybrid Intelligence Design Patterns"
+    - "Executive AI Preparation Framework"
+    - "AI-Powered Silo Breaking Methods"
+    - "Next-Generation Decision-Making Protocols"
+    - "Human-AI Orchestration Frameworks"
+    - "Supermind Architecture Blueprints"
+    - "Agentic Transformation Methodologies"
+    - "Collective Intelligence Amplification Systems"
+    - "AI-Human Symbiosis Design"
+  
+  # Expertise non-IA maintenue pour référence
+  traditional_expertise_areas:
+    - "Organizational Transformation"
+    - "Executive Coaching"
+    - "Systems Thinking" 
+    - "Change Management"
     - "Cross-functional Leadership"
-    - "Transversal Program Management"
-    - "OpenSeriousGame Movement"
-    - "Viral Knowledge Transmission"
-    - "Open Source Learning"
-    - "Movement Design"
-    - "Viral Transformation"
-    - "Hybrid Diffusion Strategy"
+    - "Agile Methodology"
+    - "Serious Games Design"
+    - "Knowledge Graphs"
+    - "Compound Thinking"
+    - "Martial Arts Philosophy Integration"
   
-  # Méthodologies développées
-  methodologies:
-    - "ECC Method"
-    - "Engineering Corporate Collectives"
-    - "Compound Thinking Framework"
-    - "Knowledge Graph Learning"
-    - "Hypergraph Thinking"
-    - "Confidence Level Variations Method"
-    - "Solution Gatling"
-    - "Cogeneration"
-    - "Coprompting"
-    - "Cincinnatus Network"
-    - "Supermind-us Framework"
-    - "OpenSeriousGame Movement"
-    - "Viral Transformation Design"
-    - "Hybrid Diffusion Strategy"
-  
-  # Expérience professionnelle
+  # Expérience professionnelle avec dimension IA
   experience_years: "15+"
-  certifications_count: "20+"
+  ai_focus_years: "2+"
+  certifications_count: "25+"
+  ai_certifications_count: "8+"
   
   companies_worked:
-    - "Thales"
-    - "BNP Paribas"
-    - "GRDF"
-    - "France Télévisions"
-    - "Amadeus"
+    - name: "Thales"
+      ai_impact: "Leadership transformation"
+    - name: "BNP Paribas"
+      ai_impact: "Agile transformation"
+    - name: "GRDF"
+      ai_impact: "Cross-functional change management"
+    - name: "France Télévisions"
+      ai_impact: "Digital transformation"
+    - name: "Amadeus"
+      ai_impact: "Product management of IT solutions"
   
   # Profils sociaux
   social_profiles:
@@ -114,20 +147,25 @@ author:
     country: "France"
     country_code: "FR"
 
-# Informations sur l'entreprise
+# Informations sur l'entreprise IA-focusée
 company:
   name: "Komyu"
   url: "https://www.komyu.fr"
-  description: "Next-generation collective intelligence consulting firm"
+  description: "AI-augmented collective intelligence consulting firm specializing in human-AI supermind engineering"
+  short_description: "AI-augmented collective intelligence for corporate transformation. Methods & agents for next-gen decision-making."
   founding_year: "2022"
-  industry: "Management Consulting"
-  specialties:
-    - "Collective Intelligence"
-    - "Organizational Transformation"
-    - "Human-AI Collaboration"
-    - "Executive Coaching"
-    - "Silo Elimination"
-    - "Cross-functional Leadership Development"
+  industry: "AI-Augmented Management Consulting"
+  ai_specialties:
+    - "Human-AI Supermind Engineering"
+    - "Agentic Decision Support"
+    - "Executive AI Preparation"
+    - "AI-Enhanced Organizational Transformation"
+    - "Collective Prompt Engineering"
+    - "Shared Agent Architectures"
+    - "Next-Generation Decision-Making Systems"
+    - "AI-Powered Silo Breaking"
+    - "Hybrid Intelligence Design"
+    - "Corporate AI Readiness Assessment"
 
 # Build settings
 markdown: kramdown
@@ -141,7 +179,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
 
-# Collections for your content structure
+# Collections for AI-enhanced content structure
 collections:
   profile:
     output: true
@@ -152,8 +190,14 @@ collections:
   insights:
     output: true
     permalink: /insights/:name/
+  agents:
+    output: true
+    permalink: /agents/:name/
+  superminds:
+    output: true
+    permalink: /superminds/:name/
 
-# Defaults for collections
+# Defaults for collections avec focus IA
 defaults:
   - scope:
       path: ""
@@ -161,34 +205,53 @@ defaults:
     values:
       layout: "page"
       category: "profile"
+      ai_enhanced: true
   - scope:
       path: ""
       type: "frameworks"
     values:
       layout: "page"
       category: "frameworks"
+      ai_enhanced: true
   - scope:
       path: ""
       type: "insights"
     values:
       layout: "page"
       category: "insights"
+      ai_focus: true
+  - scope:
+      path: ""
+      type: "agents"
+    values:
+      layout: "page"
+      category: "agents"
+      ai_native: true
+  - scope:
+      path: ""
+      type: "superminds"
+    values:
+      layout: "page"
+      category: "superminds"
+      ai_collaboration: true
 
 # SEO and AI optimization
 seo:
   name: "Alexandre Quach"
   type: "Person"
+  job_title: "AI-Augmented Preparator for Executives and Corporate Transversal Leaders"
   links:
     - "https://github.com/alexandrequach"
     - "https://linkedin.com/in/alexandrequach"
     - "https://www.komyu.fr"
 
-# Schema.org structured data
+# Schema.org structured data enrichi IA
 schema:
   person:
     "@type": "Person"
     name: "Alexandre Quach"
-    jobTitle: "Collective Intelligence Architect"
+    jobTitle: "AI-Augmented Preparator for Executives and Corporate Transversal Leaders"
+    description: "Creating methods and agents for next-generation decision-making"
     worksFor: "Komyu"
     address:
       locality: "Paris"
@@ -196,44 +259,62 @@ schema:
     nationality: "French"
     gender: "Male"
     birthPlace: "France"
+    expertise:
+      - "AI-Augmented Executive Coaching"
+      - "Human-AI Supermind Engineering"
+      - "Agentic Decision Support"
+      - "Executive AI Preparation"
     
   organization:
     "@type": "Organization"
     name: "Komyu"
     url: "https://www.komyu.fr"
     foundingDate: "2022"
-    industry: "Management Consulting"
+    industry: "AI-Augmented Management Consulting"
+    description: "AI-augmented collective intelligence for corporate transformation"
     address:
       locality: "Paris"
       country: "France"
 
-# Navigation
+# Navigation enrichie IA
 navigation:
   - title: "Profile"
     url: /profile/
+    description: "AI-enhanced professional background"
   - title: "Frameworks"
     url: /frameworks/
+    description: "AI-augmented methodologies & superminds"
   - title: "Insights"
     url: /insights/
+    description: "AI transformation insights"
+  - title: "Agents"
+    url: /agents/
+    description: "AI agent architectures"
+  - title: "Superminds"
+    url: /superminds/
+    description: "Human-AI collaboration cases"
 
-# Professional data for rich snippets
+# Professional data enrichi IA
 professional:
-  role: "Collective Intelligence Architect"
+  role: "AI-Augmented Preparator for Executives and Corporate Transversal Leaders"
   company: "Komyu"
-  industry: ["Management Consulting", "Organizational Development", "Executive Coaching", "Collective Intelligence", "AI Collaboration"]
-  target_clients: ["Transversal Leaders", "Program Managers", "Transformation Leaders", "Cross-functional Teams", "Executive Teams"]
-  value_proposition: "Engineering Corporate Collectives that amplify quality and speed of both group decision-making and collective execution through systematic approaches and proven methodologies"
+  industry: ["AI-Augmented Management Consulting", "Executive AI Coaching", "Supermind Engineering", "Agentic Systems Design", "Human-AI Collaboration"]
+  target_clients: ["C-Suite Executives", "Transversal Leaders", "Cross-Functional Teams", "AI Transformation Leaders", "Board Directors", "Innovation Leaders", "Technology Leaders"]
+  ai_value_proposition: "Engineering human-AI superminds that amplify executive decision-making and cross-functional collaboration through agentic systems and collective intelligence"
   
-  unique_selling_points:
-    - "15+ years large enterprise experience"
-    - "Engineering mindset applied to human systems"
-    - "Proven ECC Method"
-    - "Elite education portfolio (MIT Sloan, ENSTA, Sorbonne)"
-    - "East-West philosophical integration"
-    - "Martial arts discipline (15+ years)"
-    - "Continuous learning commitment"
+  ai_unique_selling_points:
+    - "Pioneer in Executive AI Preparation"
+    - "Human-AI Supermind Engineering expertise"
+    - "Agentic Decision Support systems creator"
+    - "Collective Prompt Engineering methodology"
+    - "AI-enhanced organizational transformation"
+    - "Next-generation decision-making frameworks"
+    - "Elite AI education portfolio (MIT AI Strategy, Stanford AI, Harvard Leadership)"
+    - "15+ years large enterprise AI transformation"
+    - "East-West philosophical integration in AI contexts"
+    - "Continuous AI learning commitment (8h/week)"
     - "Human-AI collaboration pioneer"
-    - "Silo elimination expert"
+    - "Supermind architecture specialist"
 
 # Language and localization
 language: "en"
@@ -243,12 +324,12 @@ timezone: "Europe/Paris"
 # Contact information
 contact:
   email: "alexandre.quach@komyu.fr"
-  phone: null  # Pas publié
+  phone: null
   address:
     locality: "Paris"
     region: "Île-de-France"
     country: "France"
-    postal_code: null  # Pas publié
+    postal_code: null
 
 # Exclude from processing
 exclude:
@@ -276,31 +357,96 @@ future: false
 incremental: true
 profile: false
 
-# Auto-génération de contenu
-content_auto_detection:
-  frameworks:
-    - "ECC Method"
-    - "Compound Thinking" 
-    - "Solution Gatling"
-    - "Supermind-us"
-    - "Cincinnatus Network"
-    - "OpenSeriousGame"
-    - "Viral Transformation"
-    - "Knowledge Graphs"
-    - "Hypergraph Learning"
+# Auto-génération de contenu IA
+ai_content_auto_detection:
+  ai_frameworks:
+    - "AI-Enhanced ECC Method"
+    - "Supermind Engineering"
+    - "Agentic Decision Support"
+    - "Collective Prompt Engineering"
+    - "Shared Agent Architectures"
+    - "Executive AI Preparation Protocol"
+    - "AI-Augmented Compound Learning"
+    - "Hybrid Intelligence Design"
+    - "Next-Generation Decision-Making"
+    - "AI-Powered Silo Breaking"
   
-  expertise_keywords:
-    - "collective intelligence"
-    - "organizational transformation"
-    - "executive coaching"
-    - "human-AI collaboration"
-    - "viral knowledge transmission"
-    - "open source learning"
-    - "movement design"
-    - "serious games"
+  ai_expertise_keywords:
+    - "AI-augmented executive coaching"
+    - "human-AI supermind engineering"
+    - "agentic decision support"
+    - "collective prompt engineering"
+    - "executive AI preparation"
+    - "AI transformation leadership"
+    - "hybrid intelligence systems"
+    - "next-generation decision-making"
+    - "AI-enhanced organizational transformation"
+    - "corporate AI readiness"
   
-  company_keywords:
+  ai_company_keywords:
     - "alexandre quach"
     - "komyu"
+    - "AI-augmented preparator"
+    - "supermind engineering"
+    - "agentic systems"
+    - "human-AI collaboration"
     - "collective intelligence architect"
-    - "openseriousgame"
+    - "executive AI coaching"
+    - "AI transformation"
+    - "organizational AI"
+
+# AI Agent Configuration
+ai_agents:
+  executive_coach:
+    type: "decision_support"
+    capabilities: ["strategic_guidance", "scenario_analysis", "stakeholder_mapping"]
+    integration: "seamless"
+  
+  diagnostic_agent:
+    type: "organizational_analysis"
+    capabilities: ["silo_detection", "collaboration_assessment", "readiness_scoring"]
+    integration: "automated"
+  
+  learning_companion:
+    type: "continuous_development"
+    capabilities: ["skill_gap_analysis", "personalized_learning_paths", "progress_tracking"]
+    integration: "adaptive"
+  
+  facilitation_assistant:
+    type: "meeting_enhancement"
+    capabilities: ["agenda_optimization", "real_time_insights", "action_item_tracking"]
+    integration: "collaborative"
+
+# Supermind Architecture Configurations
+supermind_architectures:
+  distributed_decision_network:
+    type: "multi_agent_executive_support"
+    components: ["strategic_ai", "operational_ai", "human_oversight"]
+    decision_flow: "parallel_processing_with_human_synthesis"
+  
+  collective_intelligence_amplifier:
+    type: "team_wide_ai_enhancement" 
+    components: ["individual_ai_coaches", "group_facilitation_ai", "collective_memory_system"]
+    enhancement_factor: "2-5x baseline performance"
+  
+  cross_functional_ai_bridge:
+    type: "silo_breaking_agent_system"
+    components: ["department_liaison_agents", "translation_ai", "integration_coordinators"]
+    bridge_effectiveness: "90% silo_reduction_rate"
+
+# AI Transformation Metrics
+ai_success_metrics:
+  executive_ai_literacy:
+    baseline: "traditional_leadership_methods"
+    target: "ai_augmented_decision_making"
+    improvement: "200% decision_speed + 150% quality"
+  
+  organizational_ai_readiness:
+    assessment_framework: "proprietary_ecc_enhanced_methodology"
+    readiness_levels: ["resistant", "aware", "adopting", "optimizing", "innovating"]
+    target_level: "optimizing_to_innovating"
+  
+  supermind_performance:
+    collective_intelligence_quotient: "measurable_through_decision_outcomes"
+    collaboration_efficiency: "cross_functional_project_completion_rates"
+    innovation_velocity: "idea_to_implementation_cycles"

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Alexandre Quach - Collective Intelligence Architect"
-description: "Executive Preparation coach specializing in engineering corporate collectives and augmented collective intelligence. Expert in organizational transformation, human-AI collaboration, and systems thinking."
-keywords: ["alexandre quach", "collective intelligence", "collective intelligence architect", "executive preparation coach", "komyu", "organizational transformation", "corporate collectives engineering", "ECC method", "engineering corporate collectives", "human-AI collaboration", "systems thinking", "agile coaching", "organizational design", "executive coaching", "leadership development", "continuous learning", "MIT sloan", "stanford", "harvard", "berkeley", "thales", "bnp paribas", "grdf", "amadeus", "martial arts", "stoicism", "taoism", "strategic thinking", "compound thinking", "knowledge graphs", "metadata analysis", "supermind", "cincinnatus network", "solution gatling", "cogeneration", "coprompting", "hypergraph thinking", "confidence building", "mindful eating", "appreciation practice", "paris france", "consultant", "transformation", "innovation", "change management", "team dynamics", "organizational psychology", "behavioral optimization", "personal development", "executive education", "elite training", "certification strategy", "learning systems", "AI-first strategy", "future of work", "collective decision making", "group intelligence", "organizational learning", "knowledge management", "process optimization", "workflow design", "collaboration systems", "remote work", "distributed teams", "cross-functional collaboration", "silo breaking", "organizational silos", "corporate culture", "change leadership", "transformation management", "digital transformation", "operational excellence", "performance optimization", "strategic planning", "business strategy", "consulting methodology", "framework development", "thought leadership", "executive advisory", "senior leadership", "C-suite consulting", "board advisory", "interim management", "crisis leadership", "turnaround management", "growth strategy", "scaling organizations", "startup advisor", "enterprise consulting", "fortune 500", "large enterprise", "complex organizations", "matrix organizations", "global teams", "international experience", "multicultural leadership", "diversity inclusion", "psychological safety", "team performance", "high performing teams", "organizational effectiveness", "business transformation", "people analytics", "data driven decisions", "evidence based management", "scientific management", "engineering mindset", "systematic approach", "methodical thinking", "analytical problem solving", "root cause analysis", "systems analysis", "process improvement", "lean thinking", "agile methodology", "scrum master", "product owner", "project management", "program management", "portfolio management", "resource optimization", "capacity planning", "workload management", "productivity enhancement", "efficiency optimization", "time management", "priority setting", "decision making", "critical thinking", "strategic thinking", "creative problem solving", "innovation management", "design thinking", "human centered design", "user experience", "customer experience", "stakeholder management", "communication strategy", "influence without authority", "persuasion", "negotiation", "conflict resolution", "mediation", "facilitation", "workshop design", "training design", "curriculum development", "adult learning", "experiential learning", "action learning", "peer learning", "social learning", "knowledge transfer", "mentoring", "coaching", "leadership coaching", "executive mentoring", "talent development", "succession planning", "career development", "professional development", "skill building", "competency development", "capability building", "organizational capability", "dynamic capabilities", "learning organization", "adaptive organization", "resilient organization", "antifragile", "complexity management", "uncertainty management", "ambiguity tolerance", "change readiness", "change agility", "organizational agility", "business agility", "strategic agility", "operational agility", "cognitive agility", "emotional agility", "social agility", "cultural agility", "future readiness", "future proofing", "scenario planning", "strategic foresight", "trend analysis", "weak signals", "emerging technologies", "artificial intelligence", "machine learning", "automation", "digital technologies", "information systems", "knowledge systems", "decision support systems", "business intelligence", "data analytics", "predictive analytics", "prescriptive analytics", "augmented analytics", "cognitive computing", "natural language processing", "computer vision", "robotics", "internet of things", "blockchain", "cloud computing", "cybersecurity", "digital security", "information security", "risk management", "compliance", "governance", "ethics", "responsible AI", "AI ethics", "technology ethics", "digital ethics", "sustainability", "social responsibility", "stakeholder capitalism", "purpose driven", "values based leadership", "authentic leadership", "servant leadership", "transformational leadership", "situational leadership", "adaptive leadership", "distributed leadership", "shared leadership", "collaborative leadership", "inclusive leadership", "global leadership", "virtual leadership", "remote leadership", "crisis leadership", "resilient leadership", "innovative leadership", "entrepreneurial leadership", "intrapreneurship", "corporate entrepreneurship", "business development", "new venture creation", "startup methodology", "lean startup", "business model innovation", "value proposition design", "customer development", "market research", "competitive analysis", "industry analysis", "ecosystem thinking", "platform strategy", "network effects", "two sided markets", "marketplace dynamics", "digital platforms", "technology platforms", "innovation platforms", "collaboration platforms", "knowledge platforms", "learning platforms", "social platforms", "community building", "network building", "relationship building", "trust building", "reputation management", "personal branding", "thought leadership", "content strategy", "knowledge sharing", "best practices", "lessons learned", "case studies", "success stories", "failure analysis", "post mortem", "retrospectives", "continuous improvement", "kaizen", "six sigma", "total quality management", "operational excellence", "process excellence", "service excellence", "customer excellence", "employee experience", "employee engagement", "organizational culture", "culture change", "cultural transformation", "values alignment", "behavior change", "habit formation", "mindset shift", "mental models", "cognitive biases", "decision biases", "behavioral economics", "psychology", "organizational psychology", "social psychology", "cognitive psychology", "positive psychology", "flow state", "peak performance", "optimal experience", "intrinsic motivation", "self determination theory", "mastery", "autonomy", "purpose", "meaning", "fulfillment", "well being", "work life balance", "work life integration", "stress management", "burnout prevention", "resilience building", "emotional intelligence", "social intelligence", "cultural intelligence", "spiritual intelligence", "multiple intelligences", "growth mindset", "fixed mindset", "learning mindset", "beginner mind", "curious mind", "open mind", "critical mind", "creative mind", "innovative mind", "entrepreneurial mind", "strategic mind", "tactical mind", "operational mind", "analytical mind", "intuitive mind", "holistic mind", "systems mind", "network mind", "design mind", "engineering mind", "scientific mind", "philosophical mind", "wise mind", "mindful mind", "present mind", "aware mind", "conscious mind", "reflective mind", "contemplative mind", "meditative mind", "peaceful mind", "calm mind", "focused mind", "concentrated mind", "attentive mind", "observant mind", "perceptive mind", "insightful mind", "understanding mind", "empathetic mind", "compassionate mind", "loving mind", "kind mind", "generous mind", "grateful mind", "appreciative mind", "optimistic mind", "positive mind", "confident mind", "courageous mind", "brave mind", "bold mind", "fearless mind", "determined mind", "persistent mind", "resilient mind", "adaptive mind", "flexible mind", "agile mind", "responsive mind", "proactive mind", "initiative mind", "action oriented", "results oriented", "goal oriented", "outcome oriented", "impact oriented", "value oriented", "quality oriented", "excellence oriented", "improvement oriented", "growth oriented", "learning oriented", "development oriented", "innovation oriented", "change oriented", "transformation oriented", "evolution oriented", "progress oriented", "advancement oriented", "achievement oriented", "success oriented", "performance oriented", "effectiveness oriented", "efficiency oriented", "productivity oriented", "optimization oriented", "enhancement oriented", "enrichment oriented", "fulfillment oriented", "satisfaction oriented", "happiness oriented", "joy oriented", "peace oriented", "harmony oriented", "balance oriented", "integration oriented", "alignment oriented", "coherence oriented", "consistency oriented", "authenticity oriented", "integrity oriented", "honesty oriented", "transparency oriented", "openness oriented", "trust oriented", "respect oriented", "dignity oriented", "equality oriented", "fairness oriented", "justice oriented", "responsibility oriented", "accountability oriented", "stewardship oriented", "service oriented", "contribution oriented", "legacy oriented", "impact oriented", "difference making", "world changing", "society improving", "humanity serving", "planet caring", "future building", "next generation", "sustainable future", "better world", "collective good", "common good", "shared value", "mutual benefit", "win win", "collaboration", "cooperation", "partnership", "alliance", "ecosystem", "community", "network", "collective", "group", "team", "organization", "institution", "society", "humanity", "world", "planet", "universe", "existence", "life", "consciousness", "awareness", "wisdom", "knowledge", "understanding", "insight", "truth", "reality", "meaning", "purpose", "significance", "importance", "value", "worth", "quality", "excellence", "beauty", "harmony", "peace", "love", "joy", "happiness", "fulfillment", "satisfaction", "contentment", "gratitude", "appreciation", "wonder", "awe", "mystery", "curiosity", "exploration", "discovery", "learning", "growth", "development", "evolution", "transformation", "change", "progress", "advancement", "improvement", "enhancement", "optimization", "perfection", "mastery", "expertise", "skill", "competence", "capability", "capacity", "potential", "possibility", "opportunity", "chance", "hope", "faith", "belief", "confidence", "trust", "courage", "strength", "power", "energy", "vitality", "health", "wellness", "fitness", "nutrition", "balance", "moderation", "discipline", "self control", "willpower", "determination", "persistence", "perseverance", "resilience", "endurance", "stamina", "patience", "tolerance", "acceptance", "forgiveness", "compassion", "empathy", "kindness", "generosity", "giving", "sharing", "caring", "helping", "serving", "supporting", "encouraging", "inspiring", "motivating", "empowering", "enabling", "facilitating", "guiding", "teaching", "mentoring", "coaching", "developing", "growing", "building", "creating", "innovating", "inventing", "designing", "engineering", "constructing", "manufacturing", "producing", "delivering", "providing", "offering", "supplying", "distributing", "sharing", "spreading", "expanding", "scaling", "growing", "developing", "evolving", "transforming", "changing", "improving", "enhancing", "optimizing", "perfecting", "mastering", "excelling", "succeeding", "achieving", "accomplishing", "realizing", "actualizing", "manifesting", "expressing", "communicating", "sharing", "connecting", "relating", "bonding", "loving", "caring", "supporting", "helping", "serving", "contributing", "making difference", "creating impact", "building legacy", "shaping future", "changing world", "improving society", "serving humanity", "caring planet", "loving life", "embracing existence", "celebrating consciousness", "honoring awareness", "cherishing wisdom", "valuing knowledge", "appreciating understanding", "treasuring insight", "seeking truth", "exploring reality", "finding meaning", "discovering purpose", "creating significance", "building importance", "generating value", "producing worth", "delivering quality", "achieving excellence", "creating beauty", "building harmony", "making peace", "spreading love", "sharing joy", "bringing happiness", "creating fulfillment", "generating satisfaction", "building contentment", "expressing gratitude", "showing appreciation", "inspiring wonder", "creating awe", "embracing mystery", "encouraging curiosity", "supporting exploration", "enabling discovery", "facilitating learning", "promoting growth", "supporting development", "enabling evolution", "facilitating transformation", "supporting change", "encouraging progress", "enabling advancement", "supporting improvement", "facilitating enhancement", "enabling optimization", "supporting perfection", "facilitating mastery", "enabling expertise", "supporting skill", "building competence", "developing capability", "expanding capacity", "realizing potential", "creating possibility", "opening opportunity", "providing chance", "inspiring hope", "building faith", "strengthening belief", "increasing confidence", "building trust", "inspiring courage", "building strength", "generating power", "creating energy", "building vitality", "supporting health", "promoting wellness", "encouraging fitness", "supporting nutrition", "creating balance", "promoting moderation", "building discipline", "strengthening self control", "developing willpower", "building determination", "strengthening persistence", "developing perseverance", "building resilience", "increasing endurance", "building stamina", "developing patience", "increasing tolerance", "building acceptance", "promoting forgiveness", "developing compassion", "building empathy", "encouraging kindness", "promoting generosity", "supporting giving", "encouraging sharing", "building caring", "promoting helping", "supporting serving", "encouraging supporting", "building encouraging", "promoting inspiring", "supporting motivating", "encouraging empowering", "building enabling", "promoting facilitating", "supporting guiding", "encouraging teaching", "building mentoring", "promoting coaching", "supporting developing", "encouraging growing", "building building", "promoting creating", "supporting innovating", "encouraging inventing", "building designing", "promoting engineering"]
+title: "Alexandre Quach - AI-Augmented Preparator for Executives"
+description: "AI-Augmented Preparator for Executives and Corporate Transversal Leaders. Creating methods and agents for next-generation decision-making. Engineering human-AI superminds for corporate transformation."
+keywords: ["alexandre quach", "AI-augmented coach", "executive preparation", "supermind", "human-AI collaboration", "agentic systems", "collective intelligence", "decision-making agents", "corporate superminds", "transversal leaders", "cross-functional leadership", "AI-human orchestration", "next-generation decision-making", "executive coaching", "organizational transformation", "AI strategy", "collective prompt engineering", "shared agent architectures", "hybrid intelligence", "komyu", "MIT AI", "Stanford AI", "Harvard leadership", "AI governance", "executive AI literacy", "AI transformation", "corporate AI adoption", "leadership augmentation", "intelligent systems", "collaborative AI", "AI-enabled organizations", "future of leadership", "AI preparedness", "executive AI strategy", "AI leadership development", "corporate AI readiness", "augmented decision-making", "AI-powered transformation", "intelligent organizations", "AI coaching", "executive AI training", "AI implementation", "organizational AI", "AI business strategy", "AI leadership coaching", "AI transformation consulting", "AI readiness assessment", "AI capability building", "AI-driven innovation", "AI organizational design", "AI change management", "AI adoption strategy", "AI leadership framework", "AI executive education", "AI strategic planning", "AI transformation leadership", "AI business transformation", "AI organizational transformation", "AI leadership preparation", "AI executive coaching", "AI strategic leadership", "AI transformation strategy", "AI implementation strategy", "AI adoption framework", "AI readiness framework", "AI capability framework", "AI transformation framework", "AI leadership methodology", "AI coaching methodology", "AI preparation methodology", "AI development methodology", "AI integration methodology", "AI collaboration methodology", "AI orchestration methodology", "AI augmentation methodology", "AI enhancement methodology", "AI optimization methodology"]
 canonical_url: "https://quach.fr/"
 author: "Alexandre Quach"
 geo_region: "FR-75"
@@ -10,106 +10,103 @@ geo_city: "Paris"
 geo_country: "France"
 language: "en"
 content_type: "professional profile"
-professional_role: "Collective Intelligence Architect"
+professional_role: "AI-Augmented Preparator for Executives and Corporate Transversal Leaders"
 company: "Komyu"
 company_url: "https://www.komyu.fr"
-industry: ["Management Consulting", "Organizational Development", "Executive Coaching", "Collective Intelligence", "AI Collaboration"]
-expertise_areas: ["Collective Intelligence", "Organizational Transformation", "Executive Coaching", "Systems Thinking", "Human-AI Collaboration", "Agile Methodology", "Corporate Collectives Engineering", "Leadership Development", "Change Management", "Innovation Management"]
-methodologies: ["ECC Method", "Engineering Corporate Collectives", "Compound Thinking", "Knowledge Graphs", "Hypergraph Thinking", "Confidence Level Variations", "Solution Gatling", "Cogeneration", "Coprompting"]
+industry: ["AI-Augmented Management Consulting", "Executive AI Coaching", "Supermind Engineering", "Agentic Systems Design", "Human-AI Collaboration"]
+expertise_areas: ["AI-Augmented Executive Coaching", "Human-AI Supermind Engineering", "Agentic Decision Support", "Collective Prompt Engineering", "Executive AI Preparation", "Transversal AI Leadership", "AI-Enhanced Organizational Transformation", "Next-Generation Decision-Making", "Hybrid Intelligence Systems", "AI Strategy for Executives"]
+methodologies: ["AI-Enhanced ECC Method", "Supermind Engineering Framework", "Agentic Decision Support", "Collective Prompt Engineering", "Shared Agent Architectures", "Executive AI Preparation Protocol", "AI-Augmented Compound Learning", "Hybrid Intelligence Design"]
 education_institutions: ["MIT Sloan School of Management", "Stanford University", "Harvard University", "UC Berkeley", "ENSTA ParisTech", "Sorbonne University"]
-certifications_count: "20+"
-experience_years: "15+"
-client_companies: ["Thales", "BNP Paribas", "GRDF", "France Télévisions", "Amadeus"]
-martial_arts_experience: "15+ years"
-philosophical_foundations: ["Stoicism", "Taoism", "Strategic Thinking", "Art of War"]
-learning_commitment: "8 hours/week continuous learning"
-ai_summary: "Alexandre Quach is a Collective Intelligence Architect and Executive Preparation coach who specializes in engineering corporate collectives and augmented collective intelligence. With 15+ years of experience in large organizations including Thales, BNP Paribas, and GRDF, he has developed the ECC Method and other frameworks for organizational transformation. Founder of Komyu consulting firm, he combines executive education from MIT Sloan, Stanford, Harvard, and Berkeley with 15+ years of martial arts practice and philosophical foundations in Stoicism and Taoism. His expertise spans human-AI collaboration, systems thinking, compound thinking, knowledge graphs, and innovative approaches like Solution Gatling and the Cincinnatus Network concept."
-schema_type: "Person"
-job_title: "Collective Intelligence Architect"
+ai_focus: ["MIT AI Strategy and Leadership", "Stanford Generative AI", "Harvard Executive Leadership", "Berkeley Emotional Intelligence", "AI Governance", "Executive AI Literacy"]
+job_title: "AI-Augmented Preparator for Executives and Corporate Transversal Leaders"
 employer: "Komyu"
 work_location: "Paris, France"
-knows_about: ["Collective Intelligence", "Organizational Transformation", "Executive Coaching", "Systems Thinking", "Human-AI Collaboration", "Agile Coaching", "Leadership Development", "Change Management", "Innovation", "Strategic Planning", "Complex Problem Solving", "Team Dynamics", "Corporate Culture", "Digital Transformation", "Artificial Intelligence", "Machine Learning", "Knowledge Management", "Decision Making", "Process Optimization", "Continuous Learning", "Martial Arts", "Philosophy", "Mindfulness", "Personal Development", "Behavioral Psychology", "Organizational Psychology", "Group Dynamics", "Facilitation", "Workshop Design", "Training Development", "Mentoring", "Coaching Methodology", "Consulting", "Advisory Services", "Interim Management", "Crisis Leadership", "Turnaround Management", "Growth Strategy", "Scaling Organizations", "Remote Work", "Distributed Teams", "Cross-functional Collaboration", "Matrix Organizations", "Global Teams", "Multicultural Leadership", "Diversity and Inclusion", "Psychological Safety", "Employee Engagement", "Performance Management", "Talent Development", "Succession Planning", "Career Development", "Skill Building", "Competency Development", "Learning Organization", "Adaptive Organization", "Resilient Organization", "Change Readiness", "Organizational Agility", "Business Agility", "Future Readiness", "Scenario Planning", "Strategic Foresight", "Emerging Technologies", "Digital Ethics", "Responsible AI", "Sustainability", "Social Responsibility", "Purpose-driven Leadership", "Authentic Leadership", "Servant Leadership", "Transformational Leadership", "Distributed Leadership", "Collaborative Leadership", "Inclusive Leadership", "Virtual Leadership", "Crisis Leadership", "Entrepreneurial Leadership", "Business Development", "Innovation Management", "Design Thinking", "Lean Startup", "Business Model Innovation", "Platform Strategy", "Network Effects", "Community Building", "Relationship Building", "Trust Building", "Communication Strategy", "Influence without Authority", "Negotiation", "Conflict Resolution", "Mediation", "Risk Management", "Compliance", "Governance", "Ethics", "Well-being", "Work-life Integration", "Stress Management", "Resilience Building", "Emotional Intelligence", "Social Intelligence", "Cultural Intelligence", "Growth Mindset", "Learning Mindset", "Creative Problem Solving", "Critical Thinking", "Decision Making", "Priority Setting", "Time Management", "Productivity Enhancement", "Efficiency Optimization", "Quality Management", "Operational Excellence", "Process Excellence", "Customer Experience", "User Experience", "Stakeholder Management", "Partnership Development", "Alliance Management", "Ecosystem Thinking", "Network Thinking", "Systems Analysis", "Root Cause Analysis", "Data Analytics", "Evidence-based Management", "Scientific Management", "Research Methodology", "Experimental Design", "Hypothesis Testing", "Statistical Analysis", "Quantitative Analysis", "Qualitative Analysis", "Mixed Methods Research", "Action Research", "Case Study Methodology", "Ethnographic Research", "Survey Design", "Interview Techniques", "Focus Groups", "Observation Techniques", "Data Collection", "Data Analysis", "Report Writing", "Presentation Skills", "Public Speaking", "Workshop Facilitation", "Meeting Management", "Project Management", "Program Management", "Portfolio Management", "Resource Management", "Budget Management", "Financial Analysis", "Business Case Development", "ROI Analysis", "Cost-Benefit Analysis", "Value Proposition Design", "Market Research", "Competitive Analysis", "Industry Analysis", "SWOT Analysis", "PEST Analysis", "Porter's Five Forces", "Blue Ocean Strategy", "Disruptive Innovation", "Technology Adoption", "Digital Strategy", "Information Systems", "Knowledge Systems", "Decision Support Systems", "Business Intelligence", "Predictive Analytics", "Prescriptive Analytics", "Automation", "Robotics", "Internet of Things", "Blockchain", "Cloud Computing", "Cybersecurity", "Digital Security", "Information Security", "Privacy Protection", "GDPR Compliance", "International Standards", "Quality Standards", "Safety Standards", "Environmental Standards", "Social Standards", "Ethical Standards", "Professional Standards", "Best Practices", "Benchmarking", "Performance Measurement", "KPI Development", "Dashboard Design", "Reporting Systems", "Monitoring Systems", "Control Systems", "Feedback Systems", "Learning Systems", "Improvement Systems", "Innovation Systems", "Knowledge Systems", "Information Systems", "Communication Systems", "Collaboration Systems", "Coordination Systems", "Integration Systems", "Alignment Systems", "Synchronization Systems", "Optimization Systems", "Enhancement Systems", "Development Systems", "Growth Systems", "Scaling Systems", "Transformation Systems", "Change Systems", "Evolution Systems", "Adaptation Systems", "Resilience Systems", "Recovery Systems", "Continuity Systems", "Sustainability Systems", "Regeneration Systems", "Renewal Systems", "Revitalization Systems", "Rejuvenation Systems", "Restoration Systems", "Rehabilitation Systems", "Reconstruction Systems", "Redesign Systems", "Reengineering Systems", "Restructuring Systems", "Reorganization Systems", "Realignment Systems", "Rebalancing Systems", "Reconfiguration Systems", "Refinement Systems", "Optimization Systems"]
-same_as: ["https://www.linkedin.com/in/alexandrequach", "https://www.komyu.fr", "https://quach.fr"]
+schema_type: "Person"
 url: "https://quach.fr"
 image: "https://quach.fr/_profile/images/Alexandre_Quach_photo_2023.JPG"
-logo: "https://quach.fr/_profile/images/Alexandre_Quach_photo_2023.JPG"
 contact_point: "alexandre.quach@komyu.fr"
 address_locality: "Paris"
 address_country: "France"
-nationality: "French"
-birth_place: "France"
-gender: "Male"
-professional_experience_start: "2009"
-martial_arts_start: "2009"
-continuous_learning_start: "2009"
-philosophy_practice_start: "2009"
-consulting_start: "2014"
-komyu_founding: "2022"
-ecc_method_development: "2022-2025"
-speaking_languages: ["French", "English", "Chinese"]
-time_zone: "Europe/Paris"
-availability: "Global consulting available"
-consulting_focus: ["Fortune 500", "Large Enterprise", "Complex Organizations", "Matrix Organizations", "Global Teams", "Distributed Teams", "Remote Organizations", "Hybrid Organizations", "Digital-first Organizations", "AI-enabled Organizations"]
-target_clients: ["C-suite Executives", "Senior Leadership Teams", "Board of Directors", "Transformation Leaders", "Innovation Leaders", "HR Leaders", "Technology Leaders", "Operations Leaders", "Strategy Leaders"]
-value_proposition: "Engineering Corporate Collectives that amplify quality and speed of both group decision-making and collective execution through systematic approaches and proven methodologies"
-unique_selling_points: ["15+ years large enterprise experience", "Engineering mindset applied to human systems", "Proven ECC Method", "Elite education portfolio", "East-West philosophical integration", "Martial arts discipline", "Continuous learning commitment", "Compound thinking expertise", "Human-AI collaboration pioneer", "Collective intelligence architect"]
-competitive_advantages: ["Systematic approach to transformation", "Engineering precision for human systems", "Deep large enterprise experience", "Global education credentials", "Cultural intelligence", "Philosophical foundations", "Disciplined practice", "Continuous innovation", "Future-ready thinking", "Holistic integration"]
-success_metrics: ["100+ client recommendations", "15+ years enterprise experience", "20+ professional certifications", "Multiple Fortune 500 clients", "Proven transformation results", "Sustainable change implementation", "Leadership development success", "Innovation methodology creation", "Thought leadership recognition", "Continuous learning achievement"]
-mission: "Preparing leaders to engineer corporate collectives that work exponentially better through systematic approaches, continuous learning, and philosophical wisdom"
-vision: "A world where organizations operate as superminds, collective intelligence exceeds individual capabilities, and human-AI collaboration creates unprecedented value"
-values: ["Excellence", "Integrity", "Continuous Learning", "Systems Thinking", "Collective Good", "Sustainable Impact", "Philosophical Wisdom", "Disciplined Practice", "Innovation", "Authenticity"]
-approach: ["Evidence-based", "Systematic", "Holistic", "Sustainable", "Scalable", "Measurable", "Adaptive", "Inclusive", "Ethical", "Future-ready"]
-delivery_methods: ["Executive Coaching", "Leadership Development", "Organizational Assessment", "Strategic Planning", "Workshop Facilitation", "Team Development", "Change Management", "Innovation Consulting", "Training Design", "Advisory Services"]
+same_as: ["https://www.linkedin.com/in/alexandrequach", "https://www.komyu.fr", "https://quach.fr"]
 ---
 
 # Alexandre Quach
 
-**Executive Preparation coach** | Founder of [Komyu](https://www.komyu.fr) | Engineering Corporate Collectives
+**AI-Augmented Preparator for Executives and Corporate Transversal Leaders** | Founder of [Komyu](https://www.komyu.fr) | Creating methods and agents for next-generation decision-making
 
 ---
 
-<img src="images/Alexandre_Quach_photo_2023.JPG" alt="Alexandre Quach - Collective Intelligence Architect" style="width: 100px; height: auto; border-radius: 10px; margin: 20px 0;">
+<img src="images/Alexandre_Quach_photo_2023.JPG" alt="Alexandre Quach - AI-Augmented Preparator for Executives" style="width: 100px; height: auto; border-radius: 10px; margin: 20px 0;">
 
 ## About
 
-I specialize in **augmented collective intelligence**, helping organizations engineer more effective collaborative systems, using methods, AI, and any relevant capabilities. As an "Executive Preparation coach," I prepare leaders working through systems and indirect influence to create sustainable change.
+I specialize in **preparing executives and transversal leaders for the AI-augmented future**. I create methods and AI agents that transform corporate decision-making, helping organizations evolve into **human-AI superminds** capable of exponential collective intelligence.
 
 ### Core Focus
-- **Collective Intelligence Architecture**: Designing systems that amplify quality and speed of both group decision-making and collective execution
-- **Corporate Collectives Engineering**: Applying engineering principles to organizational challenges and opportunities
-- **Executive Preparation**: Developing leaders through systemic approaches
+- **Executive AI Preparation**: Training leaders to orchestrate human-AI collaboration systems
+- **Supermind Engineering**: Designing organizations where humans and AI agents work as unified intelligent systems
+- **Agentic Decision Support**: Creating AI agents that augment executive decision-making processes
+- **Transversal AI Leadership**: Developing cross-functional leaders capable of breaking silos through AI-enhanced methods
+
+### My Unique Approach
+**"The Executive Preparator Who Learns With Leaders"**
+
+While others become executives, I prepare them. I continuously learn from world-class institutions (MIT AI Strategy, Stanford AI, Harvard Leadership) not to climb the corporate ladder, but to stay ahead of the AI transformation curve and equip tomorrow's leaders with cutting-edge human-AI collaboration methodologies.
 
 ---
-## Explore
 
-- **[Profile]({{ '/profile/' | relative_url }})**: Detailed professional background and certifications
-- **[Frameworks]({{ '/frameworks/' | relative_url }})**: The ECC Method and other approaches  
-- **[Insights]({{ '/insights/' | relative_url }})**: Personal insights, concepts, strategic thinking
+## What I Do
 
----
+### 🤖 **AI-Augmented Coaching**
+- Design personalized AI agents that support executive decision-making
+- Create hybrid human-AI coaching methodologies 
+- Develop AI literacy programs for senior leadership
 
-## Philosophy
+### 🧠 **Supermind Architecture**
+- Engineer organizations that think and decide as unified human-AI systems
+- Design collective intelligence frameworks enhanced by AI agents
+- Create shared prompt engineering systems for collaborative problem-solving
 
-**"Engineer at heart"** - Approaching human systems with the same rigor as technical systems.
+### 🎯 **Executive AI Preparation**
+- Train C-level executives to lead AI-augmented organizations
+- Develop transversal leaders capable of orchestrating cross-functional AI adoption
+- Create AI governance frameworks for executive teams
 
-**Continuous Learning**: Lifelong student focusing on leadership, innovation, and organizational behavior.
-
-**Philosophical Foundation**: Stoicism, Taoism, and strategic thinking from Sun Tzu's Art of War.
+### 🔗 **Silo-Breaking Through AI**
+- Use AI agents to facilitate cross-departmental collaboration
+- Design AI-powered diagnostic tools for organizational transformation
+- Create agentic systems that bridge communication gaps between functions
 
 ---
 
 ## Professional Journey
 
-**Current**: Founder of Komyu, developing the ECC Method (Engineering Corporate Collectives)
+**Current**: Founder of Komyu, pioneering the next generation of AI-augmented collective intelligence
 
 **Background**: 
-- 15 years of work in mostly large companies (Thales, GRDF, BNP Paribas, Amadeus, ...) dedicated to make people and systems work together
-- Executive and Technologies studies from MIT Sloan, Stanford, Harvard and Berkeley 
-- Engineering degree from ENSTA ParisTech
-- Business studies from Sorbonne
-- 15 years of martial arts practice
-- Continuous learning: 8 hours/week from world-class institutions
+- 15 years engineering human systems in large enterprises (Thales, BNP Paribas, GRDF, Amadeus)
+- Executive education from MIT, Stanford, Harvard, Berkeley
+- Developer of the ECC Method enhanced with AI agents
+- Pioneer in collective prompt engineering and shared agent architectures
+- 20+ certifications in AI, leadership, and organizational transformation
+
+**Philosophy**: 
+- **"AI augments humans, it doesn't replace them"** - I design the orchestration
+- **Continuous AI Learning**: 8 hours/week staying ahead of AI developments
+- **East-West Integration**: Combining AI precision with philosophical wisdom (Stoicism, Taoism)
 
 ---
 
+## Explore
 
+- **[Profile]({{ '/profile/' | relative_url }})**: Professional background and certifications
+- **[Frameworks]({{ '/frameworks/' | relative_url }})**: ECC Method, Supermind Engineering, Agentic Decision Support
+- **[Insights]({{ '/insights/' | relative_url }})**: Transformation insights and next-generation leadership concepts
+
+---
+
+## Ready to Engineer Your AI-Augmented Future?
+
+The future belongs to leaders who can orchestrate human-AI superminds. Let's prepare your organization for exponential collective intelligence through next-generation decision-making systems.
+
+**Contact**: alexandre.quach@komyu.fr
