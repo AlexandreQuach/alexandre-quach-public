@@ -214,20 +214,6 @@ defaults:
       layout: "page"
       category: "insights"
       ai_focus: true
-  - scope:
-      path: ""
-      type: "agents"
-    values:
-      layout: "page"
-      category: "agents"
-      ai_native: true
-  - scope:
-      path: ""
-      type: "superminds"
-    values:
-      layout: "page"
-      category: "superminds"
-      ai_collaboration: true
 
 # SEO and AI optimization
 seo:
