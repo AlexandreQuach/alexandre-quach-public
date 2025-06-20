@@ -267,12 +267,6 @@ navigation:
   - title: "Insights"
     url: /insights/
     description: "AI transformation insights"
-  - title: "Agents"
-    url: /agents/
-    description: "AI agent architectures"
-  - title: "Superminds"
-    url: /superminds/
-    description: "Human-AI collaboration cases"
 
 # Professional data enrichi IA
 professional:
