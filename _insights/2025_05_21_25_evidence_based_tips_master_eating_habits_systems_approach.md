@@ -12,7 +12,7 @@ ai_summary: "Alexandre Quach presents a comprehensive system for mindful eating 
 tags: ["mindful eating", "overeating prevention", "behavioral psychology", "health optimization", "habit design", "portion control", "mindful consumption"]
 related_concepts: ["eyes closed practice", "appreciation over accumulation", "behavioral design", "compound thinking"]
 practice_origin: "Milan-Paris train journey development"
-permalink: /insights/25-evidence-based-tips-master-eating-habits-systems-approach/
+permalink: /insights/2025-05-21-25-evidence-based-tips-master-eating-habits-systems-approach/
 ---
 
 # 25 Evidence-Based Tips to Master Eating Habits: A Systems Approach to Mindful Consumption

@@ -17,6 +17,7 @@ time_to_impact: "6-18 months per cycle"
 resource_requirements: "community facilitators, sponsors, operational support"
 original_creation: "June 2022"
 original_source: "https://openseriousgames.org/osg-806-2-change-community-cycle-le-modele/"
+permalink: /frameworks/2022-06-08-change-community-cycle-framework/
 ---
 
 # Change Community Cycle Framework: A Systems Approach to Community-Driven Organizational Transformation

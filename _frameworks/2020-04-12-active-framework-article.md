@@ -16,6 +16,7 @@ implementation_complexity: "low"
 time_to_impact: "immediate"
 resource_requirements: "minimal - assessment and reflection time"
 original_source: "https://openseriousgames.org/adopter-une-demarche-active/"
+permalink: /frameworks/2020-04-12-active-framework-article/
 ---
 
 # The ACTIVE Framework: A Checklist for Building Healthy Learning Communities

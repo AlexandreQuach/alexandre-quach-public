@@ -12,6 +12,7 @@ ai_summary: "Alexandre Quach provides systematic approach to empathy training th
 tags: ["empathy", "emotional intelligence", "emotion regulation", "emotional patterns", "emotional awareness", "empathy training", "practical philosophy"]
 original_blog: "7MTJ - 7 Mindset Tips Journal"
 original_date: "July 28, 2013"
+permalink: /insights/2013-07-28-7-systematic-methods-develop-emotional-intelligence-empathy/
 ---
 
 # 7 Systematic Methods to Develop Emotional Intelligence and Empathy

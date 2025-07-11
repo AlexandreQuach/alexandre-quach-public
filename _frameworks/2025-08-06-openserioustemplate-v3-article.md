@@ -15,6 +15,7 @@ framework_type: "content creation methodology"
 implementation_complexity: "medium"
 time_to_impact: "immediate"
 resource_requirements: "minimal - checklist application"
+permalink: /frameworks/2025-08-06-openserioustemplate-v3-article/
 ---
 
 # OpenSeriousTemplate V3: Complete Framework for Making Serious Games Transmissible

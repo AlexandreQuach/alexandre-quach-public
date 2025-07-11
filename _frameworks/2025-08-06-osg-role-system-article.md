@@ -15,6 +15,7 @@ framework_type: "community organization system"
 implementation_complexity: "high"
 time_to_impact: "6 months to 2 years"
 resource_requirements: "community focus, minimal financial investment"
+permalink: /frameworks/2025-08-06-osg-role-system-article/
 ---
 
 # The OSG Role System: A Living Ecosystem for Knowledge Transmission

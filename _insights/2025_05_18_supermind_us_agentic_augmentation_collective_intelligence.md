@@ -11,7 +11,7 @@ content_type: "AI systems framework"
 ai_summary: "Alexandre Quach presents Supermind-us, a comprehensive multi-agent system for augmenting organizational collective intelligence through six specialized agent types (Explainer, Detective, Data-organizer, Interaction window finder, Mediator, and others), with emphasis on enhancing human-human interaction rather than replacement."
 tags: ["supermind-us", "collective intelligence", "multi-agent systems", "organizational AI", "collaborative intelligence", "human augmentation", "ethical AI"]
 related_concepts: ["collective intelligence", "cogeneration", "metadata analysis", "knowledge graphs", "human-AI collaboration"]
-permalink: /insights/project-supermind-us-agentic-augmentation-collective-intelligence/
+permalink: /insights/2025-05-18-project-supermind-us-agentic-augmentation-collective-intelligence/
 ---
 
 # Project Supermind-us: Agentic Augmentation of Collective Intelligence

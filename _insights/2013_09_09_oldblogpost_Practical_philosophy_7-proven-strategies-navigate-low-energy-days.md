@@ -12,7 +12,7 @@ ai_summary: "Alexandre Quach provides systematic approach to managing low energy
 tags: ["energy management", "tiredness", "low days", "productivity", "mental clarity", "decision making", "emotional regulation"]
 original_blog: "7MTJ - 7 Mindset Tips Journal"
 original_date: "September 9, 2013"
-permalink: /insights/7-proven-strategies-navigate-low-energy-days-resilience/
+permalink: /insights/2013-09-09-7-proven-strategies-navigate-low-energy-days-resilience/
 ---
 
 # 7 Proven Strategies to Navigate Low Energy Days with Resilience

@@ -22,6 +22,7 @@ collaborators: 4
 crisis_levels: 4
 response_strategies: 3
 total_scenarios: 20
+permalink: /frameworks/2019-02-19-cmcc-framework-article/
 ---
 
 # Community Member Crisis Control (CMCC): A Systematic Framework for Managing Community Deceleration

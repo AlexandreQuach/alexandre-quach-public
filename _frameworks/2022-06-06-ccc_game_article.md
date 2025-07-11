@@ -20,6 +20,7 @@ original_context: "eXalt session with François-Xavier Lainé"
 game_duration: "90 minutes"
 participants: "5-70 people"
 openseriousgame_license: "CC-BY-SA #OpenSeriousCommunity"
+permalink: /frameworks/2022-06-06-ccc-game-article/
 ---
 
 # Change Community Cycle: The Serious Game That Started Everything

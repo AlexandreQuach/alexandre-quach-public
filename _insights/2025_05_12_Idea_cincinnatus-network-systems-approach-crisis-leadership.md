@@ -11,6 +11,7 @@ content_type: "systems thinking insight"
 ai_summary: "Alexandre Quach explores a systems solution to leadership crises through the Cincinnatus Network concept - elite backup leaders bound by oath of non-profit service, inspired by the Roman leader who voluntarily relinquished absolute power. Demonstrates application of systems thinking to organizational leadership gaps."
 tags: ["systems thinking", "leadership network", "cincinnatus", "crisis management", "temporary mandates", "elite training", "power corruption", "collective intelligence"]
 related_concepts: ["ECC Method", "collective intelligence", "elite leadership training"]
+permalink: /insights/2025-05-12-idea-cincinnatus-network-systems-approach-crisis-leadership/
 ---
 
 # Project Cincinnatus Network: A Systems Approach to Crisis Leadership

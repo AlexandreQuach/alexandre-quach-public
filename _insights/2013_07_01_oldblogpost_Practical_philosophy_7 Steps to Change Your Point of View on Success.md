@@ -12,6 +12,7 @@ ai_summary: "Alexandre Quach presents a 7-step framework for transforming how we
 tags: ["success", "failure", "mindset", "personal growth", "philosophy"]
 original_blog: "7MTJ - 7 Mindset Tips Journal"
 original_date: "July 1, 2013"
+permalink: /insights/2013-07-01-7-steps-change-point-of-view-success/
 ---
 
 # 7 Steps to Change Your Point of View on Success

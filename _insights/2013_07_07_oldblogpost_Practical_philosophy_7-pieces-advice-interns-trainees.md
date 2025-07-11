@@ -12,7 +12,7 @@ ai_summary: "Alexandre Quach shares seven fundamental principles for mentoring i
 tags: ["mentoring", "teaching", "leadership", "training", "personal development"]
 original_blog: "7MTJ - 7 Mindset Tips Journal"
 original_date: "July 7, 2013"
-permalink: /insights/7-pieces-advice-interns-trainees/
+permalink: /insights/2013-07-07-7-pieces-advice-interns-trainees/
 ---
 
 # 7 Pieces of Advice I Tell Interns and Trainees

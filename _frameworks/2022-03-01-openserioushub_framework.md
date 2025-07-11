@@ -2,14 +2,14 @@
 title: "OpenSeriousHub: A Framework for Decentralized Peer-to-Peer Knowledge Exchange"
 date: 2022-03-01
 description: "A comprehensive framework for facilitating self-organizing knowledge sharing through matchmaking between learning demands and sharing offers, enabling communities to discover and mobilize internal expertise effectively."
-keywords: ["openserioudhub", "peer learning", "knowledge exchange", "community facilitation", "decentralized learning", "openseriousgame", "collective intelligence", "alexandre quach"]
+keywords: ["openserioushub", "peer learning", "knowledge exchange", "community facilitation", "decentralized learning", "openseriousgame", "collective intelligence", "alexandre quach"]
 categories: ["frameworks"]
 layout: page
 author: "Alexandre Quach"
-canonical_url: "https://quach.fr/frameworks/openserioudhub-decentralized-knowledge-exchange/"
+canonical_url: "https://quach.fr/frameworks/openserioushub-decentralized-knowledge-exchange/"
 content_type: "framework"
 ai_summary: "Alexandre Quach presents OpenSeriousHub, a participatory framework enabling decentralized peer-to-peer knowledge sharing through systematic matchmaking between learning demands and sharing offers, creating self-organizing communities of practice."
-tags: ["openserioudhub", "peer learning", "knowledge exchange", "community facilitation", "openseriousgame", "collective intelligence", "self-organization"]
+tags: ["openserioushub", "peer learning", "knowledge exchange", "community facilitation", "openseriousgame", "collective intelligence", "self-organization"]
 related_concepts: ["OpenSeriousGame movement", "viral knowledge transmission", "collective intelligence", "transmission communities"]
 framework_type: "community facilitation method"
 implementation_complexity: "low"
@@ -17,6 +17,7 @@ time_to_impact: "immediate"
 resource_requirements: "facilitator, collaboration tools, participants with diverse expertise"
 original_source: "https://openseriousgames.org/osg-808-w4-openserioushub/"
 original_date: "March 1, 2022"
+permalink: /frameworks/2022-03-01-openserioushub-decentralized-knowledge-exchange/
 ---
 
 # OpenSeriousHub: A Framework for Decentralized Peer-to-Peer Knowledge Exchange

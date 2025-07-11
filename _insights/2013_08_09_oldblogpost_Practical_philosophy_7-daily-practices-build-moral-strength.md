@@ -12,6 +12,7 @@ ai_summary: "Alexandre Quach redefines moral strength as daily mindset rather th
 tags: ["moral strength", "character building", "daily practices", "compassion", "moral courage", "ethical development", "practical philosophy"]
 original_blog: "7MTJ - 7 Mindset Tips Journal"
 original_date: "August 9, 2013"
+permalink: /insights/2013-08-09-7-daily-practices-build-moral-strength-beyond-heroic-moments/
 ---
 
 # 7 Daily Practices to Build Moral Strength Beyond Heroic Moments

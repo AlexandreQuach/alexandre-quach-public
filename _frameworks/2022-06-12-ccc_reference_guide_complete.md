@@ -15,6 +15,7 @@ framework_type: "comprehensive reference"
 implementation_complexity: "high"
 reference_scope: "complete methodology"
 original_creation: "June 12, 2022"
+permalink: /frameworks/2022-06-12-ccc-reference-guide-complete/
 ---
 
 # Change Community Cycle: Complete Reference Guide and Phase Analysis

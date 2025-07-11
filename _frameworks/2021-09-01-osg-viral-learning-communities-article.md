@@ -15,6 +15,7 @@ framework_type: "community development methodology"
 implementation_complexity: "high"
 time_to_impact: "3-18 months"
 resource_requirements: "facilitation skills, content development, measurement systems"
+permalink: /frameworks/2021-09-01-osg-viral-learning-communities-article/
 ---
 
 # OSG Method for Learning Communities: A Systematic Approach to Sustainable Knowledge Transmission

@@ -13,11 +13,12 @@ tags: ["CCC workshops", "change community cycle", "workshop facilitation", "orga
 related_concepts: ["Change Community Cycle framework", "OpenSeriousGame movement", "collective intelligence", "organizational transformation"]
 framework_type: "workshop collection"
 implementation_complexity: "medium"
-time_to_impact": "immediate per workshop"
+time_to_impact: "immediate per workshop"
 resource_requirements: "trained facilitators, visual materials, participant commitment"
 original_creation: "June 10, 2022"
 workshop_count: 6
 total_facilitation_time: "3 hours (6 x 30min workshops)"
+permalink: /frameworks/2022-06-10-change-community-cycle-workshops/
 ---
 
 # Change Community Cycle Workshops: 6 Complete Workshop Designs for Running Change Communities

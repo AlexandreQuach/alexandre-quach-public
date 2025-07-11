@@ -12,6 +12,7 @@ ai_summary: "Alexandre Quach presents the Confidence Level Variations Method, a 
 tags: ["confidence building", "confidence simulation", "behavioral optimization", "self-concept", "marginal analysis", "comfort zone extension"]
 related_concepts: ["compound thinking", "behavioral design", "systems thinking", "personal optimization"]
 inspiration: "Brian Tracy's 'The Psychology of Selling'"
+permalink: /insights/2025-05-17-confidence-level-variations-method-extending-action-range-systematic-confidence-building/
 ---
 
 # The Confidence Level Variations Method: Extending Your Action Range Through Systematic Confidence Building

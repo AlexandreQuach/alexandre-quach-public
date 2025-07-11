@@ -17,6 +17,7 @@ framework_type: "movement design"
 implementation_complexity: "high"
 time_to_impact: "2-7 years"
 resource_requirements: "minimal budget, strong community focus"
+permalink: /frameworks/2025-01-26-openseriousgame-movement/
 ---
 
 # OpenSeriousGame Movement: A Systems Approach to Viral Knowledge Transmission

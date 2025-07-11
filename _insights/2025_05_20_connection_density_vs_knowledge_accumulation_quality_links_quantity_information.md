@@ -11,6 +11,7 @@ content_type: "cognitive development framework"
 ai_summary: "Alexandre Quach distinguishes between knowledge accumulation (adding vertices) and connection density development (adding edges/hyperedges), demonstrating why connection quality enables reasoning, analysis, and synthesis capabilities that mere information gathering cannot provide."
 tags: ["knowledge connection density", "cognitive development", "learning systems", "knowledge graphs", "compound learning", "reasoning abilities", "organizational intelligence"]
 related_concepts: ["knowledge graphs", "hypergraph learning", "compound thinking", "collective intelligence"]
+permalink: /insights/2025-05-20-connection-density-vs-knowledge-accumulation-quality-links-quantity-information/
 ---
 
 # Connection Density vs. Knowledge Accumulation: Why Quality of Links Matters More Than Quantity of Information

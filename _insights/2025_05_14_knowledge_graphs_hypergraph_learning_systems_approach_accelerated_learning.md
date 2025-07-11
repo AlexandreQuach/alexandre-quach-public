@@ -11,6 +11,7 @@ content_type: "learning systems framework"
 ai_summary: "Alexandre Quach presents a comprehensive learning framework progressing from graph-based knowledge storage to hypergraph thinking, demonstrating how connection-rich knowledge structures accelerate learning and mirror brain neural networks. Includes practical implementation using tools like Obsidian."
 tags: ["knowledge graphs", "hypergraph thinking", "accelerated learning", "obsidian", "cognitive optimization", "learning systems", "graph thinking"]
 related_concepts: ["compound thinking", "systems thinking", "cognitive optimization"]
+permalink: /insights/2025-05-14-knowledge-graphs-hypergraph-learning-systems-approach-accelerated-learning/
 ---
 
 # From Knowledge Graphs to Hypergraph Learning: A Systems Approach to Accelerated Learning

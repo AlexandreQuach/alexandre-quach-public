@@ -11,6 +11,7 @@ content_type: "AI systems insight"
 ai_summary: "Alexandre Quach proposes advancing AI beyond content-focused RAG to analyze metadata patterns, file organization, and information flows. Suggests this could unlock organizational intelligence and simulate human intuitive understanding of document contexts."
 tags: ["metadata analysis", "AI pattern recognition", "information architecture", "organizational intelligence", "RAG evolution", "systems thinking", "document analysis"]
 related_concepts: ["collective intelligence", "systems thinking", "AI-first strategy"]
+permalink: /insights/2025-05-14-metadata-pattern-analysis-beyond-content-information-architecture/
 ---
 
 # Beyond Content: Training AI to Read the Meta-Patterns in Information Architecture
