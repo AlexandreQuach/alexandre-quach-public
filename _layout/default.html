@@ -355,38 +355,35 @@
     
     <!-- Initialize Mermaid.js -->
     <script>
-        // Configure Mermaid with theme and settings
-        mermaid.initialize({
-            startOnLoad: true,
-            theme: 'neutral',
-            themeVariables: {
-                primaryColor: '#0f766e',
-                primaryTextColor: '#374151',
-                primaryBorderColor: '#14b8a6',
-                lineColor: '#14b8a6',
-                secondaryColor: '#f0fdfa',
-                tertiaryColor: '#d1fae5',
-                background: '#ffffff',
-                mainBkg: '#f0fdfa',
-                secondBkg: '#d1fae5',
-                tertiaryBkg: '#ffffff'
-            },
-            flowchart: {
-                useMaxWidth: true,
-                htmlLabels: true,
-                curve: 'basis'
-            },
-            sequence: {
-                useMaxWidth: true
-            },
-            gantt: {
-                useMaxWidth: true
-            }
-        });
-        
-        // Ensure diagrams are rendered after page load
+        // Configure and initialize Mermaid.js
         document.addEventListener('DOMContentLoaded', function() {
-            mermaid.init();
+            mermaid.initialize({
+                startOnLoad: true,
+                theme: 'neutral',
+                themeVariables: {
+                    primaryColor: '#0f766e',
+                    primaryTextColor: '#374151',
+                    primaryBorderColor: '#14b8a6',
+                    lineColor: '#14b8a6',
+                    secondaryColor: '#f0fdfa',
+                    tertiaryColor: '#d1fae5',
+                    background: '#ffffff',
+                    mainBkg: '#f0fdfa',
+                    secondBkg: '#d1fae5',
+                    tertiaryBkg: '#ffffff'
+                },
+                flowchart: {
+                    useMaxWidth: true,
+                    htmlLabels: true,
+                    curve: 'basis'
+                },
+                sequence: {
+                    useMaxWidth: true
+                },
+                gantt: {
+                    useMaxWidth: true
+                }
+            });
         });
     </script>
 </body>
