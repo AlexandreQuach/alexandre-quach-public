@@ -46,6 +46,9 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
+    <!-- Mermaid.js for diagrams -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+    
     <style>
         /* Variables CSS pour cohérence */
         :root {
@@ -218,12 +221,33 @@
             transform: scale(1.02);
         }
         
+        /* Mermaid diagram styling */
+        .mermaid {
+            background: var(--bg-subtle);
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            overflow-x: auto;
+            text-align: center;
+        }
+        
+        .mermaid svg {
+            max-width: 100%;
+            height: auto;
+        }
+        
         /* Responsive plus subtil */
         @media (max-width: 768px) {
             .content h1 { font-size: 1.875rem; }
             .content h2 { font-size: 1.5rem; }
             .content h3 { font-size: 1.25rem; }
             .content p, .content li { font-size: 0.9375rem; line-height: 1.55; }
+            
+            .mermaid {
+                padding: 1rem;
+                margin: 1.5rem 0;
+            }
         }
     </style>
 </head>
@@ -328,5 +352,42 @@
             </div>
         </div>
     </footer>
+    
+    <!-- Initialize Mermaid.js -->
+    <script>
+        // Configure Mermaid with theme and settings
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'neutral',
+            themeVariables: {
+                primaryColor: '#0f766e',
+                primaryTextColor: '#374151',
+                primaryBorderColor: '#14b8a6',
+                lineColor: '#14b8a6',
+                secondaryColor: '#f0fdfa',
+                tertiaryColor: '#d1fae5',
+                background: '#ffffff',
+                mainBkg: '#f0fdfa',
+                secondBkg: '#d1fae5',
+                tertiaryBkg: '#ffffff'
+            },
+            flowchart: {
+                useMaxWidth: true,
+                htmlLabels: true,
+                curve: 'basis'
+            },
+            sequence: {
+                useMaxWidth: true
+            },
+            gantt: {
+                useMaxWidth: true
+            }
+        });
+        
+        // Ensure diagrams are rendered after page load
+        document.addEventListener('DOMContentLoaded', function() {
+            mermaid.init();
+        });
+    </script>
 </body>
 </html>
