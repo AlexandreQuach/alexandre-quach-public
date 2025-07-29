@@ -357,6 +357,15 @@
     <script>
         // Configure and initialize Mermaid.js
         document.addEventListener('DOMContentLoaded', function() {
+            // First, convert Jekyll's code blocks to mermaid divs
+            document.querySelectorAll('pre > code.language-mermaid').forEach((codeBlock) => {
+                const mermaidDiv = document.createElement('div');
+                mermaidDiv.className = 'mermaid';
+                mermaidDiv.textContent = codeBlock.textContent;
+                codeBlock.parentElement.parentElement.replaceChild(mermaidDiv, codeBlock.parentElement);
+            });
+            
+            // Then initialize Mermaid
             mermaid.initialize({
                 startOnLoad: true,
                 theme: 'neutral',
