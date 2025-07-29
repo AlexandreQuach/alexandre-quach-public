@@ -226,15 +226,19 @@
             background: var(--bg-subtle);
             border: 1px solid var(--border);
             border-radius: 0.5rem;
-            padding: 1.5rem;
-            margin: 2rem 0;
+            padding: 2rem;
+            margin: 3rem 0;
             overflow-x: auto;
             text-align: center;
+            width: 100%;
         }
         
         .mermaid svg {
-            max-width: 100%;
-            height: auto;
+            max-width: none !important;
+            width: auto !important;
+            height: auto !important;
+            min-width: 600px;
+            font-size: 16px !important;
         }
         
         /* Responsive plus subtil */
@@ -247,6 +251,11 @@
             .mermaid {
                 padding: 1rem;
                 margin: 1.5rem 0;
+            }
+            
+            .mermaid svg {
+                min-width: 400px !important;
+                font-size: 14px !important;
             }
         }
     </style>
@@ -379,18 +388,25 @@
                     background: '#ffffff',
                     mainBkg: '#f0fdfa',
                     secondBkg: '#d1fae5',
-                    tertiaryBkg: '#ffffff'
+                    tertiaryBkg: '#ffffff',
+                    fontSize: '16px'
                 },
                 flowchart: {
-                    useMaxWidth: true,
+                    useMaxWidth: false,
                     htmlLabels: true,
-                    curve: 'basis'
+                    curve: 'basis',
+                    padding: 20,
+                    nodeSpacing: 80,
+                    rankSpacing: 80,
+                    diagramPadding: 20
                 },
                 sequence: {
-                    useMaxWidth: true
+                    useMaxWidth: false,
+                    diagramMarginX: 20,
+                    diagramMarginY: 20
                 },
                 gantt: {
-                    useMaxWidth: true
+                    useMaxWidth: false
                 }
             });
         });
